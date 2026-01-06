@@ -11,8 +11,7 @@ function loadHeaderFooter() {
     fetch('header.html')
         .then(response => response.text())
         .then(data => {
-            const bodyContent = extractBodyContent(data);
-            document.getElementById('header-placeholder').innerHTML = bodyContent;
+            document.getElementById('header-placeholder').innerHTML = extractBodyContent(data);
             initializeMobileMenu();
         })
         .catch(error => console.error('Error loading header:', error));
@@ -21,8 +20,7 @@ function loadHeaderFooter() {
     fetch('footer.html')
         .then(response => response.text())
         .then(data => {
-            const bodyContent = extractBodyContent(data);
-            document.getElementById('footer-placeholder').innerHTML = bodyContent;
+            document.getElementById('header-placeholder').innerHTML = extractBodyContent(data);
         })
         .catch(error => console.error('Error loading footer:', error));
 }
@@ -86,12 +84,14 @@ document.addEventListener('DOMContentLoaded', function() {
             const totalSlides = slides.length;
 
             function nextSlide() {
+                if (carousel.classList.contains('paused')) return;
                 slides[currentSlide].classList.remove('active');
                 currentSlide = (currentSlide + 1) % totalSlides;
                 slides[currentSlide].classList.add('active');
             }
 
             function previousSlide() {
+                if (carousel.classList.contains('paused')) return;
                 slides[currentSlide].classList.remove('active');
                 currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
                 slides[currentSlide].classList.add('active');
