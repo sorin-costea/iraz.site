@@ -8,7 +8,7 @@ function extractBodyContent(htmlString) {
 // Function to load header and footer
 function loadHeaderFooter() {
     // Load header
-    fetch('header.html')
+    fetch('../header.html')
         .then(response => response.text())
         .then(data => {
             document.getElementById('header-placeholder').innerHTML = extractBodyContent(data);
@@ -17,10 +17,10 @@ function loadHeaderFooter() {
         .catch(error => console.error('Error loading header:', error));
     
     // Load footer
-    fetch('footer.html')
+    fetch('../footer.html')
         .then(response => response.text())
         .then(data => {
-            document.getElementById('header-placeholder').innerHTML = extractBodyContent(data);
+            document.getElementById('footer-placeholder').innerHTML = extractBodyContent(data);
         })
         .catch(error => console.error('Error loading footer:', error));
 }
