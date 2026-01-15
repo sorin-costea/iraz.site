@@ -5,13 +5,13 @@ permalink: /index.html
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=/de/">
+    <meta http-equiv="refresh" content="0; url={{ '/de/' | url }}">
     <title>Redirecting...</title>
     <script>
-        window.location.href = "/de/";
+        window.location.href = "{{ '/de/' | url }}";
     </script>
 </head>
 <body>
-<p>If you are not automatically redirected, <a href="/de/">click here please</a>.</p>
+<p>If you are not automatically redirected, <a href="{{ '/de/' | url }}">click here please</a>.</p>
 </body>
 </html>
