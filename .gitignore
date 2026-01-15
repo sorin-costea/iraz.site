@@ -16,7 +16,7 @@ pnpm-debug.log*
 
 # Eleventy Output
 # Un-comment the next line if you want to commit the build for manual deployment
-# _site/
+_site/
 
 # Logs
 *.log
