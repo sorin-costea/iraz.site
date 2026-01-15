@@ -1,0 +1,73 @@
+{
+  "title": "IRAZ - Abogados Internacionales Zúrich",
+  "carouselText": "Internacional<br>Confiable<br>Socio",
+  "welcome": "Bienvenido a nuestro sitio web",
+  "nav": {
+    "kanzlei": "DESPACHO",
+    "rechtsanwaelte": "ABOGADOS",
+    "rechtsgebiete": "ÁREAS DE PRÁCTICA",
+    "kontakt": "CONTACTO"
+  },
+  "sections": {
+    "kanzlei": "Bufete",
+    "rechtsanwaelte": "Abogados",
+    "rechtsgebiete": "Áreas de práctica"
+  },
+  "kanzlei_content": {
+    "p1": "El mundo está en constante movimiento...",
+    "p2": "Somos un equipo multinacional de abogados...",
+    "p3": "Nuestro despacho se encuentra en un entorno precioso en Zúrich..."
+  },
+  "stats": {
+    "countries": "6 Países",
+    "countries_list": "Suiza, Hungría, Rumanía, España, Colombia, Finlandia.",
+    "languages": "10 Idiomas",
+    "languages_list": "Alemán, Inglés, Español, Rumano, Húngaro, Portugués, Finés, Francés, Italiano, Japonés.",
+    "experience": "30 años de experiencia",
+    "experience_list": "Gafner-Rojas (desde 1994), Costea (desde 1994), Iltanen (desde 1998)."
+  },
+  "legal_areas": {
+    "zivilrecht": "Derecho Civil",
+    "familienrecht": "Derecho de Familia",
+    "immobilienrecht": "Derecho Inmobiliario",
+    "handelsrecht": "Derecho Mercantil",
+    "vertragsrecht": "Derecho de Contratos",
+    "gesellschaftsrecht": "Derecho Societario",
+    "erbrecht": "Derecho de Sucesiones",
+    "migrationsrecht": "Derecho de Migración",
+    "strafrecht": "Derecho Penal",
+    "steuerrecht": "Derecho Fiscal",
+    "arbeitsrecht": "Derecho Laboral",
+    "internationales_recht": "Derecho Internacional",
+    "umweltrecht": "Derecho Ambiental",
+    "mietrecht": "Derecho de Arrendamiento",
+    "auslaenderrecht": "Derecho de Extranjería",
+    "menschenrechte": "Derechos Humanos",
+    "schiedsgerichtbarkeit": "Arbitraje"
+  },
+  "cta": {
+    "text": "Concierte su cita hoy mismo",
+    "btn": "CONTACTO"
+  },
+  "footer": {
+    "address_title": "Dirección",
+    "lawyers_title": "Abogados"
+  },
+  "lawyers": {
+    "daniela": {
+      "role": "Abogada y Avocat",
+      "partner": "SOCIA",
+      "associations": "Asociación de Abogados de Zúrich, Suiza<br>Colegio de Abogados de Cluj, Rumanía."
+    },
+    "claudia": {
+      "role": "Abogada española, Abogada",
+      "partner": "SOCIA",
+      "associations": "Inscrita en la lista de abogados del cantón de Zúrich según el Art. 28 BGFA<br>Miembro del Ilustre Colegio de la Abogacía de Barcelona, España."
+    },
+    "anett": {
+      "role": "Abogada y Ügyvéd",
+      "partner": "SOCIA",
+      "associations": "Asociación de Abogados de Zúrich, Suiza<br>Colegio de Abogados de Szeged, Hungría."
+    }
+  }
+}

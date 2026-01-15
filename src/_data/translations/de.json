@@ -1,0 +1,73 @@
+{
+  "title": "IRAZ - Internationale Rechtsanwälte Zürich",
+  "carouselText": "International<br>Vertrauenswürdig<br>Partner",
+  "welcome": "Willkommen auf unserer Website",
+  "nav": {
+    "kanzlei": "KANZLEI",
+    "rechtsanwaelte": "RECHTSANWÄLTE",
+    "rechtsgebiete": "RECHTSGEBIETE",
+    "kontakt": "KONTAKT"
+  },
+  "sections": {
+    "kanzlei": "Kanzlei",
+    "rechtsanwaelte": "Rechtsanwälte",
+    "rechtsgebiete": "Rechtsgebiete"
+  },
+  "kanzlei_content": {
+    "p1": "Die Welt ist stets in Bewegung, geprägt von transnationalen und multikulturellen Beziehungen...",
+    "p2": "Wir sind ein multinationales Team von Rechtsanwälten...",
+    "p3": "Unsere Kanzlei befindet sich in einer schönen Umgebung..."
+  },
+  "stats": {
+    "countries": "6 Länder",
+    "countries_list": "Schweiz, Ungarn, Románia, Spanyolország, Kolumbia, Finnország.",
+    "languages": "10 Sprachen",
+    "languages_list": "Deutsch, Englisch, Spanisch, Rumänisch, Ungarisch, Portugiesisch, Finnisch, Französisch, Italienisch, Japanisch.",
+    "experience": "30 Jahre Erfahrung",
+    "experience_list": "Gafner-Rojas (seit 1994), Costea (seit 1994), Iltanen (seit 1998)."
+  },
+  "legal_areas": {
+    "zivilrecht": "Zivilrecht",
+    "familienrecht": "Familienrecht",
+    "immobilienrecht": "Immobilienrecht",
+    "handelsrecht": "Handelsrecht",
+    "vertragsrecht": "Vertragsrecht",
+    "gesellschaftsrecht": "Gesellschaftsrecht",
+    "erbrecht": "Erbrecht",
+    "migrationsrecht": "Migrationsrecht",
+    "strafrecht": "Strafrecht",
+    "steuerrecht": "Steuerrecht",
+    "arbeitsrecht": "Arbeitsrecht",
+    "internationales_recht": "Internationales Recht",
+    "umweltrecht": "Umweltrecht",
+    "mietrecht": "Mietrecht",
+    "auslaenderrecht": "Ausländerrecht",
+    "menschenrechte": "Menschenrechte",
+    "schiedsgerichtbarkeit": "Schiedsgerichtbarkeit"
+  },
+  "cta": {
+    "text": "Vereinbaren Sie noch heute Ihre Beratung",
+    "btn": "KONTAKT"
+  },
+  "footer": {
+    "address_title": "Adresse",
+    "lawyers_title": "Rechtsanwälte"
+  },
+  "lawyers": {
+    "daniela": {
+      "role": "Rechtsanwältin und Avocat",
+      "partner": "PARTNERIN",
+      "associations": "Züricher Anwaltsverband Schweiz<br>Baroul de Avocati Cluj Rumänien."
+    },
+    "claudia": {
+      "role": "Spanische Rechtsanwältin, Abogada",
+      "partner": "PARTNERIN",
+      "associations": "Eingetragen in der Anwaltsliste des Kantons Zürich gemäss Art 28. BGFA<br>Mitglied der Anwaltskammer von Barcelona Spanien."
+    },
+    "anett": {
+      "role": "Rechtsanwältin und Ügyvéd",
+      "partner": "PARTNERIN",
+      "associations": "Zürcher Anwaltsverband Schweiz<br>Anwaltsverband Szeged Ungarn."
+    }
+  }
+}

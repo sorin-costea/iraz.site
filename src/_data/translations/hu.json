@@ -1,0 +1,73 @@
+{
+  "title": "IRAZ - Nemzetközi Ügyvédek Zürich",
+  "carouselText": "Nemzetközi<br>Megbízható<br>Partner",
+  "welcome": "Üdvözöljük weboldalunkon",
+  "nav": {
+    "kanzlei": "IRODA",
+    "rechtsanwaelte": "ÜGYVÉDEK",
+    "rechtsgebiete": "SZAKTERÜLETEK",
+    "kontakt": "KAPCSOLAT"
+  },
+  "sections": {
+    "kanzlei": "Iroda",
+    "rechtsanwaelte": "Ügyvédek",
+    "rechtsgebiete": "Jogterületek"
+  },
+  "kanzlei_content": {
+    "p1": "A világ állandó mozgásban van...",
+    "p2": "Ügyvédekből és válogatott együttműködő partnerekből álló multinacionális csapat vagyunk...",
+    "p3": "Irodánk Zürichben, a Bellevue-nél található..."
+  },
+  "stats": {
+    "countries": "6 Ország",
+    "countries_list": "Svájc, Magyarország, Románia, Spanyolország, Kolumbia, Finnország.",
+    "languages": "10 Nyelv",
+    "languages_list": "Német, Angol, Spanyol, Román, Magyar, Portugál, Finn, Francia, Olasz, Japán.",
+    "experience": "30 év tapasztalat",
+    "experience_list": "Gafner-Rojas (1994 óta), Costea (1994 óta), Iltanen (1998 óta)."
+  },
+  "legal_areas": {
+    "zivilrecht": "Polgári jog",
+    "familienrecht": "Családjog",
+    "immobilienrecht": "Ingatlanjog",
+    "handelsrecht": "Kereskedelmi jog",
+    "vertragsrecht": "Szerződési jog",
+    "gesellschaftsrecht": "Társasági jog",
+    "erbrecht": "Öröklési jog",
+    "migrationsrecht": "Migrációs jog",
+    "strafrecht": "Büntetőjog",
+    "steuerrecht": "Adójog",
+    "arbeitsrecht": "Munkajog",
+    "internationales_recht": "Nemzetközi jog",
+    "umweltrecht": "Környezetvédelmi jog",
+    "mietrecht": "Bérleti jog",
+    "auslaenderrecht": "Idegenrendészeti jog",
+    "menschenrechte": "Emberi jogok",
+    "schiedsgerichtbarkeit": "Választottbíráskodás"
+  },
+  "cta": {
+    "text": "Egyeztesse időpontját még ma",
+    "btn": "KAPCSOLAT"
+  },
+  "footer": {
+    "address_title": "Cím",
+    "lawyers_title": "Ügyvédek"
+  },
+  "lawyers": {
+    "daniela": {
+      "role": "Ügyvéd és Avocat",
+      "partner": "PARTNER",
+      "associations": "Zürichi Ügyvédi Kamara, Svájc<br>Kolozsvári Ügyvédi Kamara, Románia."
+    },
+    "claudia": {
+      "role": "Spanyol ügyvéd, Abogada",
+      "partner": "PARTNER",
+      "associations": "Bejegyezve a zürichi kanton ügyvédi jegyzékébe a BGFA 28. cikke alapján<br>Barcelonai Ügyvédi Kamara tagja, Spanyolország."
+    },
+    "anett": {
+      "role": "Ügyvéd és Ügyvéd",
+      "partner": "PARTNER",
+      "associations": "Zürichi Ügyvédi Kamara, Svájc<br>Szegedi Ügyvédi Kamara, Magyarország."
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "title": "IRAZ - Avocați Internaționali Zürich",
+  "carouselText": "Internațional<br>De încredere<br>Partener",
+  "welcome": "Bine ați venit pe site-ul nostru",
+  "nav": {
+    "kanzlei": "PRACTICĂ",
+    "rechtsanwaelte": "AVOCAȚI",
+    "rechtsgebiete": "DOMENII",
+    "kontakt": "CONTACT"
+  },
+  "sections": {
+    "kanzlei": "Cabinet",
+    "rechtsanwaelte": "Avocați",
+    "rechtsgebiete": "Domenii de activitate"
+  },
+  "kanzlei_content": {
+    "p1": "Lumea este mereu în mișcare...",
+    "p2": "Suntem o echipă multinațională de avocați...",
+    "p3": "Cabinetul nostru este situat într-un cadru frumos din Zürich..."
+  },
+  "stats": {
+    "countries": "6 Țări",
+    "countries_list": "Elveția, Ungaria, România, Spania, Columbia, Finlanda.",
+    "languages": "10 Limbi",
+    "languages_list": "Germană, Engleză, Spaniolă, Română, Maghiară, Portugheză, Finlandeză, Franceză, Italiană, Japoneză.",
+    "experience": "30 de ani de experiență",
+    "experience_list": "Gafner-Rojas (din 1994), Costea (din 1994), Iltanen (din 1998)."
+  },
+  "legal_areas": {
+    "zivilrecht": "Drept civil",
+    "familienrecht": "Dreptul familiei",
+    "immobilienrecht": "Drept imobiliar",
+    "handelsrecht": "Drept comercial",
+    "vertragsrecht": "Dreptul contractelor",
+    "gesellschaftsrecht": "Drept societar",
+    "erbrecht": "Dreptul succesiunilor",
+    "migrationsrecht": "Dreptul migrației",
+    "strafrecht": "Drept penal",
+    "steuerrecht": "Drept fiscal",
+    "arbeitsrecht": "Dreptul muncii",
+    "internationales_recht": "Drept internațional",
+    "umweltrecht": "Dreptul mediului",
+    "mietrecht": "Drept locativ",
+    "auslaenderrecht": "Dreptul străinilor",
+    "menschenrechte": "Drepturile omului",
+    "schiedsgerichtbarkeit": "Arbitraj"
+  },
+  "cta": {
+    "text": "Stabiliți o consultație astăzi",
+    "btn": "CONTACT"
+  },
+  "footer": {
+    "address_title": "Adresă",
+    "lawyers_title": "Avocați"
+  },
+  "lawyers": {
+    "daniela": {
+      "role": "Avocat",
+      "partner": "PARTENERĂ",
+      "associations": "Asociația Avocaților din Zurich Elveția<br>Baroul de Avocati Cluj România."
+    },
+    "claudia": {
+      "role": "Avocat spaniol, Abogada",
+      "partner": "PARTENERĂ",
+      "associations": "Înscrisă în lista avocaților din cantonul Zurich conform Art. 28 BGFA<br>Membră a Baroului din Barcelona Spania."
+    },
+    "anett": {
+      "role": "Avocat și Ügyvéd",
+      "partner": "PARTENERĂ",
+      "associations": "Asociația Avocaților din Zurich Elveția<br>Baroul de Avocati Szeged Ungaria."
+    }
+  }
+}

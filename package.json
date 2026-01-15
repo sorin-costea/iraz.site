@@ -1,0 +1,19 @@
+{
+  "name": "iraz-site",
+  "version": "1.0.0",
+  "description": "Multi-language static website for IRAZ International Lawyers",
+  "author": "IRAZ",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sorin-costea/iraz.site.git"
+  },
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "start": "eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  }
+}

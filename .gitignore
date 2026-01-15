@@ -14,10 +14,9 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# Build/output (if you add build steps later)
-dist/
-build/
-out/
+# Eleventy Output
+# Un-comment the next line if you want to commit the build for manual deployment
+# _site/
 
 # Logs
 *.log

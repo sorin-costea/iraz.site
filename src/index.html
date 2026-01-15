@@ -1,0 +1,303 @@
+---
+pagination:
+  data: translations
+  size: 1
+  alias: lang
+permalink: "/{{ lang }}/index.html"
+---
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ translations[lang].title }}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ '/assets/site.css' | url }}">
+    <link rel="icon" type="image/svg-xml" href="{{ '/img/logo-black.svg' | url }}">
+</head>
+<body>
+    <!-- Light gray language bar -->
+    <div class="language-bar">
+        <div class="container">
+            <div class="flags">
+                <a href="{{ '/de/' | url }}"><img src="https://flagcdn.com/w40/de.png" alt="DE" class="flag"></a>
+                <a href="{{ '/en/' | url }}"><img src="https://flagcdn.com/w40/gb.png" alt="EN" class="flag"></a>
+                <a href="{{ '/es/' | url }}"><img src="https://flagcdn.com/w40/es.png" alt="ES" class="flag"></a>
+                <a href="{{ '/ro/' | url }}"><img src="https://flagcdn.com/w40/ro.png" alt="RO" class="flag"></a>
+                <a href="{{ '/hu/' | url }}"><img src="https://flagcdn.com/w40/hu.png" alt="HU" class="flag"></a>
+            </div>
+        </div>
+    </div>
+    <!-- Brown header -->
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <img src="{{ '/img/logo-weiss.png' | url }}" alt="Logo">
+            </div>
+            <nav class="main-nav">
+                <div class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="{{ '/de/' | url }}#kanzlei">{{ translations[lang].nav.kanzlei }}</a></li>
+                    <li><a href="{{ '/de/' | url }}#rechtsanwaelte">{{ translations[lang].nav.rechtsanwaelte }}</a></li>
+                    <li><a href="{{ '/de/' | url }}#rechtsgebiete">{{ translations[lang].nav.rechtsgebiete }}</a></li>
+                    <li><a href="{{ '/de/' | url }}#kontakt">{{ translations[lang].nav.kontakt }}</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="carousel-container">
+        <div class="carousel" id="carousel">
+            <div class="carousel-slide active">
+                <img src="{{ '/img/carousel/bridge.jpg' | url }}" alt="Zürich">
+            </div>
+            <div class="carousel-slide">
+                <img src="{{ '/img/carousel/bucharest.jpg' | url }}" alt="Bukarest">
+            </div>
+            <div class="carousel-slide">
+                <img src="{{ '/img/carousel/budapest.jpg' | url }}" alt="Budapest">
+            </div>
+            <div class="carousel-slide">
+                <img src="{{ '/img/carousel/helsinki.jpg' | url }}" alt="Helsinki">
+            </div>
+            <div class="carousel-slide">
+                <img src="{{ '/img/carousel/madrid.jpg' | url }}" alt="Madrid">
+            </div>
+            <div class="carousel-text">
+                {{ translations[lang].carouselText | raw }}
+            </div>
+        </div>
+    </div>
+    <!-- Main content area -->
+    <main class="main-content">
+        <div class="content-section">
+            <div class="container">
+                <h2 class="section-title" id="kanzlei">{{ translations[lang].sections.kanzlei }}</h2>
+                <div class="content-block">
+                    <img src="{{ '/img/tisch.jpg' | url }}" alt="Table" class="content-image">
+                    <div class="content-text">
+                        <p>{{ translations[lang].kanzlei_content.p1 }}</p>
+                        <p>{{ translations[lang].kanzlei_content.p2 }}</p>
+                        <p>{{ translations[lang].kanzlei_content.p3 }}</p>
+                    </div>
+                </div>
+
+
+                <h2 class="section-title-simple">{{ translations[lang].stats.countries }}</h2>
+                <div class="content-block">
+                    <div class="content-text">
+                        <p>{{ translations[lang].stats.countries_list }}</p>
+                    </div>
+                </div>
+                <h2 class="section-title-simple">{{ translations[lang].stats.languages }}</h2>
+                <div class="content-block">
+                    <div class="content-text">
+                        <p>{{ translations[lang].stats.languages_list }}</p>
+                    </div>
+                </div>
+                <h2 class="section-title-simple">{{ translations[lang].stats.experience }}</h2>
+                <div class="content-block">
+                    <div class="content-text">
+                        <p>{{ translations[lang].stats.experience_list }}</p>
+                    </div>
+                </div>
+
+
+                <h2 class="section-title" id="rechtsanwaelte">{{ translations[lang].sections.rechtsanwaelte }}</h2>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <img src="{{ '/img/camelia.png' | url }}" alt="Dr. iur. Daniela Camelia Costea">
+                        <h3 class="section-title-simple">Dr. iur. Daniela Camelia Costea</h3>
+                        <p><i>{{ translations[lang].lawyers.daniela.role }}</i><br><br></p>
+                        <p><b>{{ translations[lang].lawyers.daniela.partner }}</b><br><br></p>
+                        <p>{{ translations[lang].lawyers.daniela.associations | raw }}</p>
+                        <div class="contact-info-list">
+                            <div class="contact-item">
+                                <a href="tel:+41794135114">
+                                    <i class="fas fa-phone"></i>
+                                    <span>+41 79 413 51 14</span>
+                                </a>
+                            </div>
+                            <div class="contact-item">
+                                <a href="mailto:c.costea@iraz.ch">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>c.costea@iraz.ch</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Column 2 -->
+                    <div class="grid-item">
+                        <img src="{{ '/img/claudia.png' | url }}" alt="Dr. iur. Claudia Maria Gafner-Rojas">
+                        <h3 class="section-title-simple">Dr. iur. Claudia Maria Gafner-Rojas</h3>
+                        <p><i>{{ translations[lang].lawyers.claudia.role }}</i><br><br></p>
+                        <p><b>{{ translations[lang].lawyers.claudia.partner }}</b><br><br></p>
+                        <p>{{ translations[lang].lawyers.claudia.associations | raw }}</p>
+                        <div class="contact-info-list">
+                            <div class="contact-item">
+                                <a href="tel:+41764264088">
+                                    <i class="fas fa-phone"></i>
+                                    <span>+41 76 426 40 88</span>
+                                </a>
+                            </div>
+                            <div class="contact-item">
+                                <a href="mailto:c.gafner-rojas@iraz.ch">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>c.gafner-rojas@iraz.ch</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Column 3 -->
+                    <div class="grid-item">
+                        <img src="{{ '/img/anett.png' | url }}" alt="Dr. iur. Anett Iltanen">
+                        <h3 class="section-title-simple">Dr. iur. Anett Iltanen</h3>
+                        <p><i>{{ translations[lang].lawyers.anett.role }}</i><br><br></p>
+                        <p><b>{{ translations[lang].lawyers.anett.partner }}</b><br><br></p>
+                        <p>{{ translations[lang].lawyers.anett.associations | raw }}</p>
+                        <div class="contact-info-list">
+                            <div class="contact-item">
+                                <a href="tel:+41435361333">
+                                    <i class="fas fa-phone"></i>
+                                    <span>+41 43 536 13 33</span>
+                                </a>
+                            </div>
+                            <div class="contact-item">
+                                <a href="mailto:anett.iltanen@iraz.ch">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>anett.iltanen@iraz.ch</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="section-title" id="rechtsgebiete">{{ translations[lang].sections.rechtsgebiete }}</h2>
+                <div class="legal-areas-grid">
+                    <div class="legal-area-item">
+                        <i class="fas fa-gavel"></i>
+                        <span>{{ translations[lang].legal_areas.zivilrecht }}</span>
+                    </div>
+                    <div class="legal-area-item">
+                        <i class="fas fa-users"></i>
+                        <span>{{ translations[lang].legal_areas.familienrecht }}</span>
+                    </div>
+                    <div class="legal-area-item">
+                        <i class="fas fa-home"></i>
+                        <span>{{ translations[lang].legal_areas.immobilienrecht }}</span>
+                    </div>
+                    <div class="legal-area-item">
+                        <i class="fas fa-briefcase"></i>
+                        <span>{{ translations[lang].legal_areas.handelsrecht }}</span>
+                    </div>
+                    <div class="legal-area-item">
+                        <i class="fas fa-handshake"></i>
+                        <span>{{ translations[lang].legal_areas.vertragsrecht }}</span>
+                    </div>
+                    <div class="legal-area-item">
+                        <i class="fas fa-building"></i>
+                        <span>{{ translations[lang].legal_areas.gesellschaftsrecht }}</span>
+                    </div>
+                    <div class="legal-area-item">
+                        <i class="fas fa-user-shield"></i>
+                        <span>{{ translations[lang].legal_areas.erbrecht }}</span>
+                    </div>
+                    <div class="legal-area-item">
+                        <i class="fas fa-passport"></i>
+                        <span>{{ translations[lang].legal_areas.migrationsrecht }}</span>
+                    </div>
+                    <div class="legal-area-item">
+                        <i class="fas fa-balance-scale"></i>
+                        <span>{{ translations[lang].legal_areas.strafrecht }}</span>
+                    </div>
+                    <div class="legal-area-item">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                        <span>{{ translations[lang].legal_areas.steuerrecht }}</span>
+                    </div>
+                    <div class="legal-area-item">
+                        <i class="fas fa-user-tie"></i>
+                        <span>{{ translations[lang].legal_areas.arbeitsrecht }}</span>
+                    </div>
+                    <div class="legal-area-item">
+                        <i class="fas fa-globe"></i>
+                        <span>{{ translations[lang].legal_areas.internationales_recht }}</span>
+                    </div>
+                </div>
+                <div class="contact-box" id="kontakt">
+                    <div class="contact-box-content">
+                        <h2>{{ translations[lang].cta.text }}</h2>
+                        <a href="mailto:office@iraz.ch" class="btn-contact">{{ translations[lang].cta.btn }}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Brown footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="{{ '/img/logo-weiss.png' | url }}" alt="Logo">
+                </div>
+                <div class="footer-info">
+                    <h3>{{ translations[lang].footer.address_title }}</h3>
+                    <p>IRAZ – Internationale Rechtsanwälte
+                        <br>Bellerivestrasse 2
+                        <br>8008 Zürich
+                        <br>Schweiz
+                        <br>
+                        <br>Tel:          +41 43 536 13 33
+                        <br>E-Mail:     office@iraz.ch</p>
+                </div>
+                <div class="footer-info">
+                    <h3>{{ translations[lang].footer.lawyers_title }}</h3>
+                    <p>Dr. iur. Daniela Camelia Costea
+                        <br>Dr. iur. Claudia Maria Gafner-Rojas
+                        <br>Dr. iur. Anett Iltanen
+                        <br>LL. M. Ana Prundaru</p>
+                </div>
+                <div class="footer-info">
+                    <h3>{{ translations[lang].sections.rechtsgebiete }}</h3>
+                    <p>{{ translations[lang].legal_areas.gesellschaftsrecht }}
+                        <br>{{ translations[lang].legal_areas.umweltrecht }}
+                        <br>{{ translations[lang].legal_areas.erbrecht }}
+                        <br>{{ translations[lang].legal_areas.strafrecht }}
+                        <br>{{ translations[lang].legal_areas.mietrecht }}
+                        <br>{{ translations[lang].legal_areas.internationales_recht }}
+                </div>
+                <div class="footer-info">
+                    <h3>&nbsp;</h3>
+                    <p>{{ translations[lang].legal_areas.auslaenderrecht }}
+                        <br>{{ translations[lang].legal_areas.arbeitsrecht }}
+                        <br>{{ translations[lang].legal_areas.vertragsrecht }}
+                        <br>{{ translations[lang].legal_areas.familienrecht }}
+                        <br>{{ translations[lang].legal_areas.menschenrechte }}
+                        <br>{{ translations[lang].legal_areas.schiedsgerichtbarkeit }}</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Light gray footer -->
+    <div class="bottom-footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="tos.html">Terms of Service</a>
+                <a href="cookies.html">Cookie Policy</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to top button -->
+    <button class="back-to-top" id="backToTop">^</button>
+
+    <script src="{{ '/assets/site.js' | url }}"></script>
+</body>
+</html>

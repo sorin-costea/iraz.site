@@ -1,45 +1,71 @@
-# iraz.site Website Project Summary
+# IRAZ.site - Project Documentation
 
 ## Project Overview
-- **Repository**: https://github.com/sorin-costea/iraz.site.git
-- **Type**: Multi-language static website with reusable templates.
-- **Technology**: Pure HTML5, CSS3, JavaScript (ES6+).
+- **Repository**: `https://github.com/sorin-costea/iraz.site.git`
+- **Type**: Multi-language static website (DE, EN, ES, HU, RO).
+- **Static Site Generator**: [Eleventy (11ty)](https://www.11ty.dev/) using the **Liquid** template engine.
+- **Deployment**: Automated via GitHub Actions to GitHub Pages.
 
-## File Structure
-- **Root**: `index.html` (Landing), `header.html`, `footer.html`.
-- **Languages**: `de/`, `en/`, `es/`, `hu/`, `ro/` (each contains `index.html`).
-- **Assets**: `assets/site.css`, `assets/site.js`.
-- **Images**: `img/carousel/` (5 images), team profile images, and `logo-weiss.png`.
+## Getting Started
 
-## Color Scheme
-- **Primary Color**: `#881017` (Burgundy)
-- **Header**: `rgba(136, 16, 23, 0.8)` (Semi-transparent)
-- **Footer**: `rgba(136, 16, 23, 1.0)` (Solid)
-- **Accents**: Light gray (`#e8e8e8`) for language bar and secondary footer.
+### Prerequisites
+- [Node.js](https://nodejs.org/) (v20 or higher recommended).
+- [npm](https://www.npmjs.com/) (installed with Node).
 
-## Layout Design
+### Local Setup
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/sorin-costea/iraz.site.git
+   cd iraz.site
+   ```
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+3. **Run development server**:
+   ```bash
+   npm start
+   ```
+   The site will be available at `http://localhost:8080/`. Changes to source files will trigger an automatic reload.
 
-### Header & Navigation
-1. **Language Bar**: Top bar with flags (DE, EN, ES, RO, HU) from `flagcdn.com`.
-2. **Main Header**: Positioned at `top: 40px`. Logo on left, menu on right.
-3. **Mobile Menu**: Hamburger toggle with "click outside to close" logic.
+## Core Architecture
 
-### Main Content
-- **Carousel**: 500px height hero section. Images cycle with smooth fade transitions.
-- **Dynamic Text**: Centered overlay text with drop shadow.
-- **Content Blocks**: Flexbox-based layout for text and images, responsive for mobile.
+### File Structure
+- `src/`: Source files.
+    - `_data/translations/`: Individual JSON files for each language (e.g., `de.json`).
+    - `assets/`: Global CSS (`site.css`) and JavaScript (`site.js`).
+    - `img/`: Site images and team profiles.
+    - `index.html`: The master template. Uses **Pagination** to generate all language versions.
+    - `redirect.html`: Root index file that redirects visitors to `/de/` by default.
+- `eleventy.config.js`: Configuration for 11ty, asset passthroughs, and path prefixes.
+- `.github/workflows/deploy.yml`: Automation script for GitHub Actions.
 
-## JavaScript Features
+### Multi-language System
+The site uses a "Single Source of Truth" approach.
+1. Adding a new language is as simple as adding a new `.json` file in `src/_data/translations/`.
+2. 11ty loops through these files and generates a corresponding folder (e.g., `/es/index.html`).
+3. **Templates**: Always use the `| url` filter for links to ensure compatibility between local and production environments:
+   `href="{{ '/assets/site.css' | url }}"`
 
-### Template System
-- **Dynamic Loading**: `fetch()` and `DOMParser` inject `header.html` and `footer.html`.
-- **Path Awareness**: Relative paths (`../`) used in subdirectories to link shared assets.
+## Deployment Workflow
+The site is deployed automatically using **GitHub Actions**.
 
-### Components
-- **Carousel**: Auto-advance (4s), keyboard support (arrows), and pause on hover.
-- **Back-to-Top**: Fixed button appearing after 300px scroll with smooth behavior.
+1. **Commit changes** to the `main` branch.
+2. GitHub triggers the `Deploy to GitHub Pages` workflow.
+3. The site is built and published to the environment.
 
-## Current Status
-- **Structure**: Fully implemented multi-language folders.
-- **Responsive**: Logo sizing and layout optimized for Desktop, Tablet, and Mobile.
-- **Assets**: All team images (`ana.png`, `claudia.png`, etc.) and venue photos integrated.
+### Domain Transition
+Currently, the site uses a `pathPrefix` for GitHub subfolders. When moving to the custom domain `iraz.ch`:
+1. Update `eleventy.config.js` to set `const pathPrefix = "/";`.
+2. Update the CNAME settings in the GitHub Pages repository settings.
+
+## Maintenance Guide
+
+### Updating Content
+- **Translations**: Edit the relevant file in `src/_data/translations/`.
+- **Images**: Add new images to `src/img/` and reference them in the JSON or HTML using the `| url` filter.
+- **Lawyer Profiles**: Managed via the `lawyers` object in each language's JSON file.
+
+### Styling
+- Primary Color: `#881017` (Burgundy).
+- The layout is responsive; mobile adjustments are handled via `@media (max-width: 768px)` in `site.css`.
