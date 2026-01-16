@@ -8,15 +8,32 @@ function initializeMobileMenu() {
     const navMenu = document.getElementById('navMenu');
 
     if (menuToggle && navMenu) {
-        menuToggle.addEventListener('click', function(e) {
+        menuToggle.addEventListener('click', function (e) {
             e.stopPropagation(); // Prevent document click from closing it immediately
             navMenu.classList.toggle('active');
         });
 
+        // Mobile dropdown toggle
+        const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+        dropdownToggles.forEach(toggle => {
+            toggle.addEventListener('click', function (e) {
+                if (window.innerWidth <= 768) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    const dropdown = this.nextElementSibling;
+                    if (dropdown) {
+                        dropdown.classList.toggle('active');
+                    }
+                }
+            });
+        });
+
         // Close mobile menu when clicking outside
-        document.addEventListener('click', function(event) {
+        document.addEventListener('click', function (event) {
             if (!menuToggle.contains(event.target) && !navMenu.contains(event.target)) {
                 navMenu.classList.remove('active');
+                // Also hide active dropdowns when closing the main menu
+                document.querySelectorAll('.dropdown-menu.active').forEach(d => d.classList.remove('active'));
             }
         });
     }
@@ -71,16 +88,13 @@ function initializeCarousel() {
         showSlide((currentSlide - 1 + totalSlides) % totalSlides);
     }
 
-    // Auto-advance carousel every 4 seconds
     const interval = setInterval(nextSlide, 4000);
 
-    // Keyboard navigation
     document.addEventListener('keydown', function(event) {
         if (event.key === 'ArrowLeft') previousSlide();
         if (event.key === 'ArrowRight') nextSlide();
     });
 
-    // Pause on hover
     carousel.addEventListener('mouseenter', () => carousel.classList.add('paused'));
     carousel.addEventListener('mouseleave', () => carousel.classList.remove('paused'));
 }

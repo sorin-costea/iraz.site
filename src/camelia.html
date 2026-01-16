@@ -1,0 +1,124 @@
+---
+pagination:
+  data: i18n
+  size: 1
+  alias: lang
+permalink: "/{{ lang }}/camelia.html"
+---
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. iur. Daniela Camelia Costea - {{ i18n[lang].title }}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ '/assets/site.css' | url }}">
+    <link rel="icon" type="image/svg-xml" href="{{ '/img/logo-black.svg' | url }}">
+</head>
+<body>
+    <div class="language-bar">
+        <div class="container">
+            <div class="flags">
+                <a href="{{ '/de/camelia.html' | url }}"><img src="https://flagcdn.com/w40/de.png" alt="DE" class="flag"></a>
+                <a href="{{ '/en/camelia.html' | url }}"><img src="https://flagcdn.com/w40/gb.png" alt="EN" class="flag"></a>
+                <a href="{{ '/es/camelia.html' | url }}"><img src="https://flagcdn.com/w40/es.png" alt="ES" class="flag"></a>
+                <a href="{{ '/ro/camelia.html' | url }}"><img src="https://flagcdn.com/w40/ro.png" alt="RO" class="flag"></a>
+                <a href="{{ '/hu/camelia.html' | url }}"><img src="https://flagcdn.com/w40/hu.png" alt="HU" class="flag"></a>
+            </div>
+        </div>
+    </div>
+
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <a href="{{ '/' | append: lang | append: '/' | url }}">
+                    <img src="{{ '/img/logo-weiss.png' | url }}" alt="Logo">
+                </a>
+            </div>
+            <nav class="main-nav">
+                <div class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="{{ '/' | append: lang | append: '/' | url }}#kanzlei">{{ i18n[lang].nav.kanzlei }}</a></li>
+                    <li class="nav-item-dropdown">
+                        <a href="{{ '/' | append: lang | append: '/' | url }}#rechtsanwaelte" class="dropdown-toggle">{{ i18n[lang].nav.rechtsanwaelte }}</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="{{ '/' | append: lang | append: '/camelia.html' | url }}">Dr. iur. Daniela Camelia Costea</a></li>
+                            <li><a href="{{ '/' | append: lang | append: '/claudia.html' | url }}">Dr. iur. Claudia Maria Gafner-Rojas</a></li>
+                            <li><a href="{{ '/' | append: lang | append: '/anett.html' | url }}">Dr. iur. Anett Iltanen</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="{{ '/' | append: lang | append: '/' | url }}#rechtsgebiete">{{ i18n[lang].nav.rechtsgebiete }}</a></li>
+                    <li><a href="{{ '/' | append: lang | append: '/contact.html' | url }}">{{ i18n[lang].nav.kontakt }}</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content" style="padding-top: 180px;">
+        <div class="content-section">
+            <div class="container">
+                <div class="content-block">
+                    <img src="{{ '/img/camelia.png' | url }}" alt="Dr. iur. Daniela Camelia Costea" class="content-image">
+                    <div class="content-text">
+                        <h1 class="section-title-simple" style="text-align: left;">Dr. iur. Daniela Camelia Costea</h1>
+                        <p><strong>{{ i18n[lang].lawyers.daniela.partner }}</strong></p>
+                        <p><i>{{ i18n[lang].lawyers.daniela.role }}</i></p>
+                        <hr style="margin: 20px 0; border: 0; border-top: 1px solid #ddd;">
+                        <p>{{ i18n[lang].lawyers.daniela.bio }}</p>
+                        <p>{{ i18n[lang].lawyers.daniela.associations | raw }}</p>
+                        
+                        <div class="contact-info-list" style="align-items: flex-start; margin-top: 30px;">
+                            <div class="contact-item">
+                                <a href="tel:+41794135114">
+                                    <i class="fas fa-phone"></i>
+                                    <span>+41 79 413 51 14</span>
+                                </a>
+                            </div>
+                            <div class="contact-item">
+                                <a href="mailto:c.costea@iraz.ch">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>c.costea@iraz.ch</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="{{ '/img/logo-weiss.png' | url }}" alt="Logo">
+                </div>
+                <div class="footer-info">
+                    <h3>{{ i18n[lang].footer.address_title }}</h3>
+                    <p>IRAZ – Internationale Rechtsanwälte<br>Bellerivestrasse 2<br>8008 Zürich<br>Schweiz<br><br>Tel: +41 43 536 13 33<br>E-Mail: office@iraz.ch</p>
+                </div>
+                <div class="footer-info">
+                    <h3>{{ i18n[lang].footer.lawyers_title }}</h3>
+                    <p>Dr. iur. Daniela Camelia Costea<br>Dr. iur. Claudia Maria Gafner-Rojas<br>Dr. iur. Anett Iltanen<br>LL. M. Ana Prundaru</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="bottom-footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="tos.html">Terms of Service</a>
+                <a href="cookies.html">Cookie Policy</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ '/assets/site.js' | url }}"></script>
+</body>
+</html>

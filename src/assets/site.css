@@ -95,6 +95,46 @@ body {
     color: #f0f0f0;
 }
 
+/* Dropdown Styles */
+.nav-item-dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgba(136, 16, 23, 0.95);
+    list-style: none;
+    min-width: 280px;
+    padding: 10px 0;
+    display: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    z-index: 110;
+}
+
+.dropdown-menu li {
+    width: 100%;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    white-4space: nowrap;
+}
+
+.dropdown-menu a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Show dropdown on hover (Desktop) */
+@media (min-width: 769px) {
+    .nav-item-dropdown:hover .dropdown-menu {
+        display: block;
+    }
+}
+
 /* Mobile menu toggle */
 .menu-toggle {
     display: none;
@@ -482,8 +522,28 @@ body {
     
     .nav-menu.active {
         transform: translateX(0);
+        opacity: 1;
+        visibility: visible;
     }
-    
+
+    /* Mobile Dropdown Adjustments */
+    .dropdown-menu {
+        position: static;
+        background-color: transparent;
+        box-shadow: none;
+        padding-left: 20px;
+        display: none; /* Controlled by JS in mobile */
+    }
+
+    .dropdown-menu.active {
+        display: block;
+    }
+
+    .dropdown-menu a {
+        font-size: 16px;
+        padding: 8px 0;
+    }
+
     .carousel-text {
         font-size: 2.5rem;
     }

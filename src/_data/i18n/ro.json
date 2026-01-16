@@ -11,7 +11,9 @@
   "sections": {
     "kanzlei": "Cabinet",
     "rechtsanwaelte": "Avocați",
-    "rechtsgebiete": "Domenii de activitate"
+    "rechtsgebiete": "Domenii de activitate",
+    "bueros": "Birouri",
+    "partnerbueros": "Birouri partenere și cooperări"
   },
   "kanzlei_content": {
     "p1": "Lumea este mereu în mișcare...",
@@ -57,7 +59,8 @@
     "daniela": {
       "role": "Avocat",
       "partner": "PARTENERĂ",
-      "associations": "Asociația Avocaților din Zurich Elveția<br>Baroul de Avocati Cluj România."
+      "associations": "Asociația Avocaților din Zurich Elveția<br>Baroul de Avocati Cluj România.",
+      "bio": "Doamna Costea are o experiență de peste 25 de ani în profesii juridice, între 1994-2004 ca procuror în România, iar ulterior ca avocat în Elveția și România. Oferă consultanță și reprezintă clienți în diverse domenii juridice, în special în drept civil, drept penal și drept internațional privat."
     },
     "claudia": {
       "role": "Avocat spaniol, Abogada",

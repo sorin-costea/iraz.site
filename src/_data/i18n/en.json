@@ -11,7 +11,9 @@
   "sections": {
     "kanzlei": "Law Firm",
     "rechtsanwaelte": "Lawyers",
-    "rechtsgebiete": "Practice Areas"
+    "rechtsgebiete": "Practice Areas",
+    "bueros": "Offices",
+    "partnerbueros": "Partner Offices & Cooperations"
   },
   "kanzlei_content": {
     "p1": "The world is constantly in motion, characterized by transnational and multicultural relationships...",
@@ -57,7 +59,8 @@
     "daniela": {
       "role": "Attorney-at-Law and Avocat",
       "partner": "PARTNER",
-      "associations": "Zurich Bar Association Switzerland<br>Cluj Bar Association Romania."
+      "associations": "Zurich Bar Association Switzerland<br>Cluj Bar Association Romania.",
+      "bio": "Ms. Costea has more than 25 years of experience in legal professions, serving as a prosecutor in Romania between 1994-2004, and subsequently as an attorney in Switzerland and Romania. She advises and represents clients in various legal fields, particularly in civil law, criminal law, and international private law."
     },
     "claudia": {
       "role": "Spanish Attorney-at-Law, Abogada",

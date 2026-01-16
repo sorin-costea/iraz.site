@@ -11,7 +11,9 @@
   "sections": {
     "kanzlei": "Iroda",
     "rechtsanwaelte": "Ügyvédek",
-    "rechtsgebiete": "Jogterületek"
+    "rechtsgebiete": "Jogterületek",
+    "bueros": "Irodák",
+    "partnerbueros": "Partnerirodák és együttműködések"
   },
   "kanzlei_content": {
     "p1": "A világ állandó mozgásban van...",
@@ -57,7 +59,8 @@
     "daniela": {
       "role": "Ügyvéd és Avocat",
       "partner": "PARTNER",
-      "associations": "Zürichi Ügyvédi Kamara, Svájc<br>Kolozsvári Ügyvédi Kamara, Románia."
+      "associations": "Zürichi Ügyvédi Kamara, Svájc<br>Kolozsvári Ügyvédi Kamara, Románia.",
+      "bio": "Costea asszony több mint 25 éves jogi szakmai tapasztalattal rendelkezik, 1994-2004 között ügyészként dolgozott Romániában, majd ügyvédként Svájcban és Romániában. Tanácsot ad és képviseli az ügyfeleket különböző jogterületeken, különösen a polgári jog, a büntetőjog és a nemzetközi magánjog területén."
     },
     "claudia": {
       "role": "Spanyol ügyvéd, Abogada",

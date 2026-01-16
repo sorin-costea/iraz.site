@@ -32,20 +32,27 @@
 
 ### File Structure
 - `src/`: Source files.
-    - `_data/translations/`: Individual JSON files for each language (e.g., `de.json`).
+    - `_data/i18n/`: Individual JSON files for each language (e.g., `de.json`).
     - `assets/`: Global CSS (`site.css`) and JavaScript (`site.js`).
     - `img/`: Site images and team profiles.
     - `index.html`: The master template. Uses **Pagination** to generate all language versions.
+    - `camelia.html`, `claudia.html`, `anett.html`: Individual lawyer profile pages.
+    - `contact.html`: Multilingual contact page.
     - `redirect.html`: Root index file that redirects visitors to `/de/` by default.
 - `eleventy.config.js`: Configuration for 11ty, asset passthroughs, and path prefixes.
 - `.github/workflows/deploy.yml`: Automation script for GitHub Actions.
 
 ### Multi-language System
 The site uses a "Single Source of Truth" approach.
-1. Adding a new language is as simple as adding a new `.json` file in `src/_data/translations/`.
-2. 11ty loops through these files and generates a corresponding folder (e.g., `/es/index.html`).
+1. Adding a new language is as simple as adding a new `.json` file in `src/_data/i18n/`.
+2. 11ty loops through these files and generates a corresponding folder and set of pages (e.g., `/es/index.html`, `/es/camelia.html`).
 3. **Templates**: Always use the `| url` filter for links to ensure compatibility between local and production environments:
    `href="{{ '/assets/site.css' | url }}"`
+
+### Key Features & Components
+- **Dropdown Navigation**: The "Rechtsanwälte" menu item contains a dropdown linking to individual profiles.
+- **Responsive Design**: Mobile-friendly hamburger menu and stackable grids for team members and legal areas.
+- **Back to Top**: Smooth scroll button implemented in `site.js`.
 
 ## Deployment Workflow
 The site is deployed automatically using **GitHub Actions**.
@@ -62,7 +69,7 @@ Currently, the site uses a `pathPrefix` for GitHub subfolders. When moving to th
 ## Maintenance Guide
 
 ### Updating Content
-- **Translations**: Edit the relevant file in `src/_data/translations/`.
+- **Translations**: Edit the relevant file in `src/_data/i18n/`.
 - **Images**: Add new images to `src/img/` and reference them in the JSON or HTML using the `| url` filter.
 - **Lawyer Profiles**: Managed via the `lawyers` object in each language's JSON file.
 

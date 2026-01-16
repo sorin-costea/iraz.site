@@ -1,6 +1,6 @@
 ---
 pagination:
-  data: translations
+  data: i18n
   size: 1
   alias: lang
 permalink: "/{{ lang }}/index.html"
@@ -10,7 +10,7 @@ permalink: "/{{ lang }}/index.html"
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ translations[lang].title }}</title>
+    <title>{{ i18n[lang].title }}</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="{{ '/assets/site.css' | url }}">
     <link rel="icon" type="image/svg-xml" href="{{ '/img/logo-black.svg' | url }}">
@@ -40,13 +40,20 @@ permalink: "/{{ lang }}/index.html"
                     <span></span>
                     <span></span>
                 </div>
-                <ul class="nav-menu" id="navMenu">
-                    <li><a href="{{ '/de/' | url }}#kanzlei">{{ translations[lang].nav.kanzlei }}</a></li>
-                    <li><a href="{{ '/de/' | url }}#rechtsanwaelte">{{ translations[lang].nav.rechtsanwaelte }}</a></li>
-                    <li><a href="{{ '/de/' | url }}#rechtsgebiete">{{ translations[lang].nav.rechtsgebiete }}</a></li>
-                    <li><a href="{{ '/de/' | url }}#kontakt">{{ translations[lang].nav.kontakt }}</a></li>
-                </ul>
-            </nav>
+                    <ul class="nav-menu" id="navMenu">
+                        <li><a href="{{ '/' | append: lang | append: '/' | url }}#kanzlei">{{ i18n[lang].nav.kanzlei }}</a></li>
+                        <li class="nav-item-dropdown">
+                            <a href="{{ '/' | append: lang | append: '/' | url }}#rechtsanwaelte" class="dropdown-toggle">{{ i18n[lang].nav.rechtsanwaelte }}</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="{{ '/' | append: lang | append: '/camelia.html' | url }}">Dr. iur. Daniela Camelia Costea</a></li>
+                                <li><a href="{{ '/' | append: lang | append: '/claudia.html' | url }}">Dr. iur. Claudia Maria Gafner-Rojas</a></li>
+                                <li><a href="{{ '/' | append: lang | append: '/anett.html' | url }}">Dr. iur. Anett Iltanen</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="{{ '/' | append: lang | append: '/' | url }}#rechtsgebiete">{{ i18n[lang].nav.rechtsgebiete }}</a></li>
+                        <li><a href="{{ '/' | append: lang | append: '/contact.html' | url }}">{{ i18n[lang].nav.kontakt }}</a></li>
+                    </ul>
+                </nav>
         </div>
     </header>
 
@@ -68,7 +75,7 @@ permalink: "/{{ lang }}/index.html"
                 <img src="{{ '/img/carousel/madrid.jpg' | url }}" alt="Madrid">
             </div>
             <div class="carousel-text">
-                {{ translations[lang].carouselText | raw }}
+                {{ i18n[lang].carouselText | raw }}
             </div>
         </div>
     </div>
@@ -76,45 +83,45 @@ permalink: "/{{ lang }}/index.html"
     <main class="main-content">
         <div class="content-section">
             <div class="container">
-                <h2 class="section-title" id="kanzlei">{{ translations[lang].sections.kanzlei }}</h2>
+                <h2 class="section-title" id="kanzlei">{{ i18n[lang].sections.kanzlei }}</h2>
                 <div class="content-block">
                     <img src="{{ '/img/tisch.jpg' | url }}" alt="Table" class="content-image">
                     <div class="content-text">
-                        <p>{{ translations[lang].kanzlei_content.p1 }}</p>
-                        <p>{{ translations[lang].kanzlei_content.p2 }}</p>
-                        <p>{{ translations[lang].kanzlei_content.p3 }}</p>
+                        <p>{{ i18n[lang].kanzlei_content.p1 }}</p>
+                        <p>{{ i18n[lang].kanzlei_content.p2 }}</p>
+                        <p>{{ i18n[lang].kanzlei_content.p3 }}</p>
                     </div>
                 </div>
 
 
-                <h2 class="section-title-simple">{{ translations[lang].stats.countries }}</h2>
+                <h2 class="section-title-simple">{{ i18n[lang].stats.countries }}</h2>
                 <div class="content-block">
                     <div class="content-text">
-                        <p>{{ translations[lang].stats.countries_list }}</p>
+                        <p>{{ i18n[lang].stats.countries_list }}</p>
                     </div>
                 </div>
-                <h2 class="section-title-simple">{{ translations[lang].stats.languages }}</h2>
+                <h2 class="section-title-simple">{{ i18n[lang].stats.languages }}</h2>
                 <div class="content-block">
                     <div class="content-text">
-                        <p>{{ translations[lang].stats.languages_list }}</p>
+                        <p>{{ i18n[lang].stats.languages_list }}</p>
                     </div>
                 </div>
-                <h2 class="section-title-simple">{{ translations[lang].stats.experience }}</h2>
+                <h2 class="section-title-simple">{{ i18n[lang].stats.experience }}</h2>
                 <div class="content-block">
                     <div class="content-text">
-                        <p>{{ translations[lang].stats.experience_list }}</p>
+                        <p>{{ i18n[lang].stats.experience_list }}</p>
                     </div>
                 </div>
 
 
-                <h2 class="section-title" id="rechtsanwaelte">{{ translations[lang].sections.rechtsanwaelte }}</h2>
+                <h2 class="section-title" id="rechtsanwaelte">{{ i18n[lang].sections.rechtsanwaelte }}</h2>
                 <div class="grid-container">
                     <div class="grid-item">
                         <img src="{{ '/img/camelia.png' | url }}" alt="Dr. iur. Daniela Camelia Costea">
                         <h3 class="section-title-simple">Dr. iur. Daniela Camelia Costea</h3>
-                        <p><i>{{ translations[lang].lawyers.daniela.role }}</i><br><br></p>
-                        <p><b>{{ translations[lang].lawyers.daniela.partner }}</b><br><br></p>
-                        <p>{{ translations[lang].lawyers.daniela.associations | raw }}</p>
+                        <p><i>{{ i18n[lang].lawyers.daniela.role }}</i><br><br></p>
+                        <p><b>{{ i18n[lang].lawyers.daniela.partner }}</b><br><br></p>
+                        <p>{{ i18n[lang].lawyers.daniela.associations | raw }}</p>
                         <div class="contact-info-list">
                             <div class="contact-item">
                                 <a href="tel:+41794135114">
@@ -135,9 +142,9 @@ permalink: "/{{ lang }}/index.html"
                     <div class="grid-item">
                         <img src="{{ '/img/claudia.png' | url }}" alt="Dr. iur. Claudia Maria Gafner-Rojas">
                         <h3 class="section-title-simple">Dr. iur. Claudia Maria Gafner-Rojas</h3>
-                        <p><i>{{ translations[lang].lawyers.claudia.role }}</i><br><br></p>
-                        <p><b>{{ translations[lang].lawyers.claudia.partner }}</b><br><br></p>
-                        <p>{{ translations[lang].lawyers.claudia.associations | raw }}</p>
+                        <p><i>{{ i18n[lang].lawyers.claudia.role }}</i><br><br></p>
+                        <p><b>{{ i18n[lang].lawyers.claudia.partner }}</b><br><br></p>
+                        <p>{{ i18n[lang].lawyers.claudia.associations | raw }}</p>
                         <div class="contact-info-list">
                             <div class="contact-item">
                                 <a href="tel:+41764264088">
@@ -158,9 +165,9 @@ permalink: "/{{ lang }}/index.html"
                     <div class="grid-item">
                         <img src="{{ '/img/anett.png' | url }}" alt="Dr. iur. Anett Iltanen">
                         <h3 class="section-title-simple">Dr. iur. Anett Iltanen</h3>
-                        <p><i>{{ translations[lang].lawyers.anett.role }}</i><br><br></p>
-                        <p><b>{{ translations[lang].lawyers.anett.partner }}</b><br><br></p>
-                        <p>{{ translations[lang].lawyers.anett.associations | raw }}</p>
+                        <p><i>{{ i18n[lang].lawyers.anett.role }}</i><br><br></p>
+                        <p><b>{{ i18n[lang].lawyers.anett.partner }}</b><br><br></p>
+                        <p>{{ i18n[lang].lawyers.anett.associations | raw }}</p>
                         <div class="contact-info-list">
                             <div class="contact-item">
                                 <a href="tel:+41435361333">
@@ -177,61 +184,61 @@ permalink: "/{{ lang }}/index.html"
                         </div>
                     </div>
                 </div>
-                <h2 class="section-title" id="rechtsgebiete">{{ translations[lang].sections.rechtsgebiete }}</h2>
+                <h2 class="section-title" id="rechtsgebiete">{{ i18n[lang].sections.rechtsgebiete }}</h2>
                 <div class="legal-areas-grid">
                     <div class="legal-area-item">
                         <i class="fas fa-gavel"></i>
-                        <span>{{ translations[lang].legal_areas.zivilrecht }}</span>
+                        <span>{{ i18n[lang].legal_areas.zivilrecht }}</span>
                     </div>
                     <div class="legal-area-item">
                         <i class="fas fa-users"></i>
-                        <span>{{ translations[lang].legal_areas.familienrecht }}</span>
+                        <span>{{ i18n[lang].legal_areas.familienrecht }}</span>
                     </div>
                     <div class="legal-area-item">
                         <i class="fas fa-home"></i>
-                        <span>{{ translations[lang].legal_areas.immobilienrecht }}</span>
+                        <span>{{ i18n[lang].legal_areas.immobilienrecht }}</span>
                     </div>
                     <div class="legal-area-item">
                         <i class="fas fa-briefcase"></i>
-                        <span>{{ translations[lang].legal_areas.handelsrecht }}</span>
+                        <span>{{ i18n[lang].legal_areas.handelsrecht }}</span>
                     </div>
                     <div class="legal-area-item">
                         <i class="fas fa-handshake"></i>
-                        <span>{{ translations[lang].legal_areas.vertragsrecht }}</span>
+                        <span>{{ i18n[lang].legal_areas.vertragsrecht }}</span>
                     </div>
                     <div class="legal-area-item">
                         <i class="fas fa-building"></i>
-                        <span>{{ translations[lang].legal_areas.gesellschaftsrecht }}</span>
+                        <span>{{ i18n[lang].legal_areas.gesellschaftsrecht }}</span>
                     </div>
                     <div class="legal-area-item">
                         <i class="fas fa-user-shield"></i>
-                        <span>{{ translations[lang].legal_areas.erbrecht }}</span>
+                        <span>{{ i18n[lang].legal_areas.erbrecht }}</span>
                     </div>
                     <div class="legal-area-item">
                         <i class="fas fa-passport"></i>
-                        <span>{{ translations[lang].legal_areas.migrationsrecht }}</span>
+                        <span>{{ i18n[lang].legal_areas.migrationsrecht }}</span>
                     </div>
                     <div class="legal-area-item">
                         <i class="fas fa-balance-scale"></i>
-                        <span>{{ translations[lang].legal_areas.strafrecht }}</span>
+                        <span>{{ i18n[lang].legal_areas.strafrecht }}</span>
                     </div>
                     <div class="legal-area-item">
                         <i class="fas fa-file-invoice-dollar"></i>
-                        <span>{{ translations[lang].legal_areas.steuerrecht }}</span>
+                        <span>{{ i18n[lang].legal_areas.steuerrecht }}</span>
                     </div>
                     <div class="legal-area-item">
                         <i class="fas fa-user-tie"></i>
-                        <span>{{ translations[lang].legal_areas.arbeitsrecht }}</span>
+                        <span>{{ i18n[lang].legal_areas.arbeitsrecht }}</span>
                     </div>
                     <div class="legal-area-item">
                         <i class="fas fa-globe"></i>
-                        <span>{{ translations[lang].legal_areas.internationales_recht }}</span>
+                        <span>{{ i18n[lang].legal_areas.internationales_recht }}</span>
                     </div>
                 </div>
                 <div class="contact-box" id="kontakt">
                     <div class="contact-box-content">
-                        <h2>{{ translations[lang].cta.text }}</h2>
-                        <a href="mailto:office@iraz.ch" class="btn-contact">{{ translations[lang].cta.btn }}</a>
+                        <h2>{{ i18n[lang].cta.text }}</h2>
+                        <a href="mailto:office@iraz.ch" class="btn-contact">{{ i18n[lang].cta.btn }}</a>
                     </div>
                 </div>
             </div>
@@ -246,7 +253,7 @@ permalink: "/{{ lang }}/index.html"
                     <img src="{{ '/img/logo-weiss.png' | url }}" alt="Logo">
                 </div>
                 <div class="footer-info">
-                    <h3>{{ translations[lang].footer.address_title }}</h3>
+                    <h3>{{ i18n[lang].footer.address_title }}</h3>
                     <p>IRAZ – Internationale Rechtsanwälte
                         <br>Bellerivestrasse 2
                         <br>8008 Zürich
@@ -256,29 +263,29 @@ permalink: "/{{ lang }}/index.html"
                         <br>E-Mail:     office@iraz.ch</p>
                 </div>
                 <div class="footer-info">
-                    <h3>{{ translations[lang].footer.lawyers_title }}</h3>
+                    <h3>{{ i18n[lang].footer.lawyers_title }}</h3>
                     <p>Dr. iur. Daniela Camelia Costea
                         <br>Dr. iur. Claudia Maria Gafner-Rojas
                         <br>Dr. iur. Anett Iltanen
                         <br>LL. M. Ana Prundaru</p>
                 </div>
                 <div class="footer-info">
-                    <h3>{{ translations[lang].sections.rechtsgebiete }}</h3>
-                    <p>{{ translations[lang].legal_areas.gesellschaftsrecht }}
-                        <br>{{ translations[lang].legal_areas.umweltrecht }}
-                        <br>{{ translations[lang].legal_areas.erbrecht }}
-                        <br>{{ translations[lang].legal_areas.strafrecht }}
-                        <br>{{ translations[lang].legal_areas.mietrecht }}
-                        <br>{{ translations[lang].legal_areas.internationales_recht }}
+                    <h3>{{ i18n[lang].sections.rechtsgebiete }}</h3>
+                    <p>{{ i18n[lang].legal_areas.gesellschaftsrecht }}
+                        <br>{{ i18n[lang].legal_areas.umweltrecht }}
+                        <br>{{ i18n[lang].legal_areas.erbrecht }}
+                        <br>{{ i18n[lang].legal_areas.strafrecht }}
+                        <br>{{ i18n[lang].legal_areas.mietrecht }}
+                        <br>{{ i18n[lang].legal_areas.internationales_recht }}
                 </div>
                 <div class="footer-info">
                     <h3>&nbsp;</h3>
-                    <p>{{ translations[lang].legal_areas.auslaenderrecht }}
-                        <br>{{ translations[lang].legal_areas.arbeitsrecht }}
-                        <br>{{ translations[lang].legal_areas.vertragsrecht }}
-                        <br>{{ translations[lang].legal_areas.familienrecht }}
-                        <br>{{ translations[lang].legal_areas.menschenrechte }}
-                        <br>{{ translations[lang].legal_areas.schiedsgerichtbarkeit }}</p>
+                    <p>{{ i18n[lang].legal_areas.auslaenderrecht }}
+                        <br>{{ i18n[lang].legal_areas.arbeitsrecht }}
+                        <br>{{ i18n[lang].legal_areas.vertragsrecht }}
+                        <br>{{ i18n[lang].legal_areas.familienrecht }}
+                        <br>{{ i18n[lang].legal_areas.menschenrechte }}
+                        <br>{{ i18n[lang].legal_areas.schiedsgerichtbarkeit }}</p>
                 </div>
             </div>
         </div>
@@ -295,9 +302,9 @@ permalink: "/{{ lang }}/index.html"
         </div>
     </div>
 
-    <!-- Back to top button -->
-    <button class="back-to-top" id="backToTop">^</button>
+        <!-- Back to top button -->
+        <button class="back-to-top" id="backToTop">^</button>
 
-    <script src="{{ '/assets/site.js' | url }}"></script>
-</body>
-</html>
+        <script src="{{ '/assets/site.js' | url }}"></script>
+    </body>
+    </html>

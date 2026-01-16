@@ -11,7 +11,9 @@
   "sections": {
     "kanzlei": "Kanzlei",
     "rechtsanwaelte": "Rechtsanwälte",
-    "rechtsgebiete": "Rechtsgebiete"
+    "rechtsgebiete": "Rechtsgebiete",
+    "bueros": "Büros",
+    "partnerbueros": "Partnerbüros im Ausland"
   },
   "kanzlei_content": {
     "p1": "Die Welt ist stets in Bewegung, geprägt von transnationalen und multikulturellen Beziehungen...",
@@ -57,7 +59,8 @@
     "daniela": {
       "role": "Rechtsanwältin und Avocat",
       "partner": "PARTNERIN",
-      "associations": "Züricher Anwaltsverband Schweiz<br>Baroul de Avocati Cluj Rumänien."
+      "associations": "Züricher Anwaltsverband Schweiz<br>Baroul de Avocati Cluj Rumänien.",
+      "bio": "Frau Costea hat mehr als 25 Jahre Erfahrung in juristischen Berufen, zwischen 1994-2004 als Staatsanwältin in Rumänien, nachher als Rechtsanwältin in der Schweiz und in Rumänien. Sie berät und vertritt Klienten in verschiedenen Rechtsbereichen, insbesondere im Zivilrecht, Strafrecht und Internationalen Privatrecht."
     },
     "claudia": {
       "role": "Spanische Rechtsanwältin, Abogada",

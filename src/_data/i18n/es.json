@@ -11,7 +11,9 @@
   "sections": {
     "kanzlei": "Bufete",
     "rechtsanwaelte": "Abogados",
-    "rechtsgebiete": "Áreas de práctica"
+    "rechtsgebiete": "Áreas de práctica",
+    "bueros": "Oficinas",
+    "partnerbueros": "Oficinas colaboradoras y cooperaciones"
   },
   "kanzlei_content": {
     "p1": "El mundo está en constante movimiento...",
@@ -57,7 +59,8 @@
     "daniela": {
       "role": "Abogada y Avocat",
       "partner": "SOCIA",
-      "associations": "Asociación de Abogados de Zúrich, Suiza<br>Colegio de Abogados de Cluj, Rumanía."
+      "associations": "Asociación de Abogados de Zúrich, Suiza<br>Colegio de Abogados de Cluj, Rumanía.",
+      "bio": "La Sra. Costea cuenta con más de 25 años de experiencia en profesiones jurídicas, habiendo ejercido como fiscal en Rumanía entre 1994 y 2004, y posteriormente como abogada en Suiza y Rumanía. Asesora y representa a clientes en diversos campos del derecho, especialmente en derecho civil, derecho penal y derecho internacional privado."
     },
     "claudia": {
       "role": "Abogada española, Abogada",
