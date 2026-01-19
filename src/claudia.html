@@ -88,6 +88,7 @@ permalink: "/{{ lang }}/claudia.html"
         </div>
     </main>
 
+    <!-- Brown footer -->
     <footer class="main-footer">
         <div class="container">
             <div class="footer-content">
@@ -96,15 +97,55 @@ permalink: "/{{ lang }}/claudia.html"
                 </div>
                 <div class="footer-info">
                     <h3>{{ i18n[lang].footer.address_title }}</h3>
-                    <p>IRAZ – Internationale Rechtsanwälte<br>Bellerivestrasse 2<br>8008 Zürich<br>Schweiz<br><br>Tel: +41 43 536 13 33<br>E-Mail: office@iraz.ch</p>
+                    <p>IRAZ – Internationale Rechtsanwälte
+                        <br>Bellerivestrasse 2
+                        <br>8008 Zürich
+                        <br>Schweiz
+                        <br>
+                        <br>Tel:          +41 43 536 13 33
+                        <br>E-Mail:     office@iraz.ch</p>
                 </div>
                 <div class="footer-info">
                     <h3>{{ i18n[lang].footer.lawyers_title }}</h3>
-                    <p>Dr. iur. Daniela Camelia Costea<br>Dr. iur. Claudia Maria Gafner-Rojas<br>Dr. iur. Anett Iltanen<br>LL. M. Ana Prundaru</p>
+                    <p>Dr. iur. Daniela Camelia Costea
+                        <br>Dr. iur. Claudia Maria Gafner-Rojas
+                        <br>Dr. iur. Anett Iltanen
+                        <br>LL. M. Ana Prundaru</p>
+                </div>
+                <div class="footer-info">
+                    <h3>{{ i18n[lang].sections.rechtsgebiete }}</h3>
+                    <p>{{ i18n[lang].legal_areas.gesellschaftsrecht }}
+                        <br>{{ i18n[lang].legal_areas.umweltrecht }}
+                        <br>{{ i18n[lang].legal_areas.erbrecht }}
+                        <br>{{ i18n[lang].legal_areas.strafrecht }}
+                        <br>{{ i18n[lang].legal_areas.mietrecht }}
+                        <br>{{ i18n[lang].legal_areas.internationales_recht }}
+                </div>
+                <div class="footer-info">
+                    <h3>&nbsp;</h3>
+                    <p>{{ i18n[lang].legal_areas.auslaenderrecht }}
+                        <br>{{ i18n[lang].legal_areas.arbeitsrecht }}
+                        <br>{{ i18n[lang].legal_areas.vertragsrecht }}
+                        <br>{{ i18n[lang].legal_areas.familienrecht }}
+                        <br>{{ i18n[lang].legal_areas.menschenrechte }}
+                        <br>{{ i18n[lang].legal_areas.schiedsgerichtbarkeit }}</p>
                 </div>
             </div>
         </div>
     </footer>
+
+    <!-- Light gray footer -->
+    <div class="bottom-footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="mandat-datenschutz.html">Datenschutzerklärung für das Mandatsverhältnis</a>
+                <a href="datenschutz.html">Datenschutz & Cookies</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to top button -->
+    <button class="back-to-top" id="backToTop">^</button>
     <script src="{{ '/assets/site.js' | url }}"></script>
 </body>
 </html>
