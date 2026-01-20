@@ -42,7 +42,6 @@ permalink: "/{{ lang }}/anett.html"
                 <ul class="nav-menu" id="navMenu">
                     <li><a href="{{ '/' | append: lang | append: '/' | url }}#kanzlei">{{ i18n[lang].nav.kanzlei }}</a></li>
                     <li class="nav-item-dropdown">
-                        <a href="{{ '/' | append: lang | append: '/' | url }}#rechtsanwaelte" class="dropdown-toggle">{{ i18n[lang].nav.rechtsanwaelte }}</a>
                         <ul class="dropdown-menu">
                             <li><a href="{{ '/' | append: lang | append: '/camelia.html' | url }}">Dr. iur. Daniela Camelia Costea</a></li>
                             <li><a href="{{ '/' | append: lang | append: '/claudia.html' | url }}">Dr. iur. Claudia Maria Gafner-Rojas</a></li>
@@ -65,9 +64,7 @@ permalink: "/{{ lang }}/anett.html"
                         <h1 class="section-title-simple" style="text-align: left;">Dr. iur. Anett Iltanen</h1>
                         <p><strong>{{ i18n[lang].lawyers.anett.partner }}</strong></p>
                         <p><i>{{ i18n[lang].lawyers.anett.role }}</i></p>
-                        <hr style="margin: 20px 0; border: 0; border-top: 1px solid #ddd;">
                         <p>{{ i18n[lang].lawyers.anett.associations | raw }}</p>
-                        
                         <div class="contact-info-list" style="align-items: flex-start; margin-top: 30px;">
                             <div class="contact-item">
                                 <a href="tel:+41435361333">
@@ -82,6 +79,9 @@ permalink: "/{{ lang }}/anett.html"
                                 </a>
                             </div>
                         </div>
+                        <hr style="margin: 20px 0; border: 0; border-top: 1px solid #ddd;">
+                        <p>{{ i18n[lang].lawyers.anett.bio }}</p>
+
                     </div>
                 </div>
             </div>

@@ -1,76 +1,78 @@
 {
-  "title": "IRAZ - Avocați Internaționali Zürich",
   "carouselText": "Internațional<br>De încredere<br>Partener",
-  "welcome": "Bine ați venit pe site-ul nostru",
-  "nav": {
-    "kanzlei": "PRACTICĂ",
-    "rechtsanwaelte": "AVOCAȚI",
-    "rechtsgebiete": "DOMENII",
-    "kontakt": "CONTACT"
-  },
-  "sections": {
-    "kanzlei": "Cabinet",
-    "rechtsanwaelte": "Avocați",
-    "rechtsgebiete": "Domenii de activitate",
-    "bueros": "Birouri",
-    "partnerbueros": "Birouri partenere și cooperări"
-  },
-  "kanzlei_content": {
-    "p1": "Lumea este mereu în mișcare...",
-    "p2": "Suntem o echipă multinațională de avocați...",
-    "p3": "Cabinetul nostru este situat într-un cadru frumos din Zürich..."
-  },
-  "stats": {
-    "countries": "7 Țări",
-    "countries_list": "Elveția, Ungaria, România, Spania, Columbia, Finlanda, Moldova.",
-    "languages": "10 Limbi",
-    "languages_list": "Germană, Engleză, Spaniolă, Română, Maghiară, Portugheză, Finlandeză, Franceză, Italiană, Japoneză.",
-    "experience": "30 de ani de experiență",
-    "experience_list": "Gafner-Rojas (din 1994), Costea (din 1994), Iltanen (din 1998)."
-  },
-  "legal_areas": {
-    "zivilrecht": "Drept civil",
-    "familienrecht": "Dreptul familiei",
-    "immobilienrecht": "Drept imobiliar",
-    "handelsrecht": "Drept comercial",
-    "vertragsrecht": "Dreptul contractelor",
-    "gesellschaftsrecht": "Drept societar",
-    "erbrecht": "Dreptul succesiunilor",
-    "migrationsrecht": "Dreptul migrației",
-    "strafrecht": "Drept penal",
-    "steuerrecht": "Drept fiscal",
-    "arbeitsrecht": "Dreptul muncii",
-    "internationales_recht": "Drept internațional",
-    "umweltrecht": "Dreptul mediului",
-    "mietrecht": "Drept locativ",
-    "auslaenderrecht": "Dreptul străinilor",
-    "menschenrechte": "Drepturile omului",
-    "schiedsgerichtbarkeit": "Arbitraj"
-  },
   "cta": {
-    "text": "Stabiliți o consultație astăzi",
-    "btn": "CONTACT"
+    "btn": "CONTACT",
+    "text": "Stabiliți o consultație astăzi"
   },
   "footer": {
     "address_title": "Adresă",
     "lawyers_title": "Avocați"
   },
+  "kanzlei_content": {
+    "p1": "Lumea este într-o continuă evoluție, modelată de relații transnaționale și multiculturale. Prin urmare, firma noastră oferă soluții personalizate pentru probleme juridice internaționale complexe, în special în ceea ce privește Spania, România, Ungaria, Finlanda, America Latină și Elveția.",
+    "p2": "Suntem o echipă multinațională de avocați și colaboratori și experți selectați care se completează perfect pentru a oferi clienților noștri consultanță juridică completă și reprezentare la cel mai înalt nivel în Elveția și în toate țările noastre țintă. Avocații noștri sunt admiși să practice în Elveția și în cel puțin o altă țară a UE.",
+    "p3": "Birourile noastre sunt situate într-o zonă frumoasă din Zürich, lângă Bellevue, la câțiva pași de gara Stadelhofen și Lacul Zürich. Pe lângă sediul nostru central din Zürich, avocații noștri au birouri în Barcelona, ​​Spania; Cluj-Napoca, România; și Szeged, Ungaria. "
+  },
   "lawyers": {
-    "daniela": {
-      "role": "Avocat",
+    "anett": {
+      "associations": "Asociația Avocaților din Zurich Elveția<br>Baroul de Avocati Szeged Ungaria.",
+      "bio": "<h2>Specialități</h2> <ul> <li>Drept comercial,</li> <li>Drept societar (drept societar)</li> <li>Drept al obligațiilor (contracte)</li> <li>Drept succesoral</li> <li>Drept al familiei</li> <li>Drept al muncii</li> <li>Statutul străinilor, dreptul imigrației (dreptul azilului)</li> <li>Drept al asigurărilor</li> <li>Consultații juridice generale, reprezentare juridică</li> <li>Drept penal (reprezentarea victimelor)</li> <li>Consultații juridice generale pentru companii legate de pornirea unei afaceri și intrarea pe piață (reprezentare ÀFA în Elveția)/ „Family Office”</li> <li>Drept imobiliar: gestionarea completă a vânzării și achiziției de bunuri imobiliare, inclusiv redactarea legală a contractelor și contrasemnătura</li> <li>Contrasemnătura avocatului pentru administrația maghiară</li> </ul>  <h2>Profesional experiență</h2> <ul> <li>Partener și avocat/ Internationale Rechtsanwälte Zürich, Elveția (din 2020)</li> <li>Avocat la o firmă de avocatură din Zurich, Elveția (2016-2019)</li> <li>Consilier principal/ DSM Composite Resins AG în Schaffhausen, Elveția (2010-2015)</li> <li>Avocat la o firmă de avocatură finlandeză din Finlanda (2004-2009)</li> <li>Partener și avocat la o firmă de avocatură din Szeged, Ungaria (2002-2004)</li> <li>Avocat stagiar în Szeged, Ungaria (1998-2002)</li> </ul>  <h2>Educație</h2> <ul> <li>Examen de barou (2002)</li> <li>Diplomă universitară în economie și drept cu diplomă de specializare (2001)</li> <li>Doctorat în drept (1998)</li> </ul>  <h2>Apartenența la o organizație profesională</h2> <ul> <li>Asociația Baroului din Zurich</li> <li>Asociația Baroului din Szeged</li> </ul>  <h2>Limbi</h2> <ul> <li>Maghiară (limba maternă)</li> <li>Germană</li> <li>Engleză</li> <li>Finlandeză</li> </ul>",
       "partner": "PARTENERĂ",
-      "associations": "Asociația Avocaților din Zurich Elveția<br>Baroul de Avocati Cluj România.",
-      "bio": "Doamna Costea are o experiență de peste 25 de ani în profesii juridice, între 1994-2004 ca procuror în România, iar ulterior ca avocat în Elveția și România. Oferă consultanță și reprezintă clienți în diverse domenii juridice, în special în drept civil, drept penal și drept internațional privat."
+      "role": "Avocat și Ügyvéd"
     },
     "claudia": {
-      "role": "Avocat spaniol, Abogada",
+      "associations": "Înscrisă în lista avocaților din cantonul Zurich conform Art. 28 BGFA<br>Membră a Baroului din Barcelona Spania.",
+      "bio": "<h2>DOMENII DE PRACTICĂ</h2> <ul>   <li>Dreptul familiei</li>   <li>Drept succesoral</li>   <li>Dreptul muncii</li>   <li>Dreptul străinilor și imigrației</li>   <li>Dreptul mediului</li>   <li>Dreptul mărcilor</li>   <li>Consiliere juridică și reprezentare în fața Curții Europene a Drepturilor Omului</li>   <li>Drept internațional privat</li>   <li>Asistență juridică pentru intrarea pe piață și înființarea de afaceri în Elveția, Spania și Columbia</li> </ul>  <h2>EXPERIENȚĂ PROFESIONALĂ</h2> <ul>   <li>Avocat, partener la „Internationale Rechtsanwälte Zürich” (din 2020)</li>   <li>Consultant juridic independent, Winterthur (2015–2019)</li>   <li>Jurist într-o casă de avocatură din Winterthur (2013–2015)</li>   <li>Consultant juridic pentru o casă de avocatură internațională în cauze în fața Curții Internaționale de Justiție, Washington (2010–2012)</li>   <li>Asistent de cercetare, Universitatea din St. Gallen, Catedra de Drept Internațional și European, Drept Public Străin și Drept Comparat, St. Gallen (2007–2008)</li>   <li>Asistent de cercetare și lector în Drept Internațional și Dreptul Mediului, Universitatea din Barcelona, Institutul de Drept Internațional și Economie, Barcelona (1998–2003)</li>   <li>Lector invitat și cercetător în Drept Internațional și Dreptul Internațional al Mediului, Universidad Externado de Colombia, Bogotá (din 1998)</li> </ul>  <h2>EDUCAȚIE</h2> <ul>   <li>Master în Practica Avocaturii, Universitat Oberta de Catalunya (2019)</li>   <li>Studii doctorale, titlul de Doctor în Drept (Dr. iur.), Universitatea din St. Gallen (2012). Premiul America Latină 2012 (HSG) pentru cea mai bună teză în studii latino-americane</li>   <li>Master în Studii Internaționale, specializare în Drept European, Universitatea din Barcelona (2006)</li>   <li>Studii de drept, Universidad Externado de Colombia (Bogotá – Columbia), lic. iur., diplomă recunoscută de Ministerul Educației și Științei din Spania (1994)</li> </ul>  <h2>LIMBI</h2> <ul>   <li>Spaniolă (limbă maternă)</li>   <li>Germană</li>   <li>Engleză</li>   <li>Portugheză</li>   <li>Franceză</li>   <li>Italiană</li> </ul>  <h2>PUBLICAȚII</h2>  <h2>Lucrări independente</h2> <ul>   <li>2018: Drept Internațional al Mediului și reflectarea sa în Columbia. Universidad Externado de Colombia. 488 pagini.</li>   <li>2013: Limitări de mediu asupra libertății de întreprindere în dreptul columbian, Universidad Externado de Colombia, Bogotá</li>   <li>2012: Protecția limbilor indigene în dreptul internațional și în ordinea juridică columbiană, Oberhänsli Satz &amp; Druck, Winterthur</li>   <li>2004: Evoluția caracteristicilor și principiilor Dreptului Internațional al Mediului și aplicarea acestora în Columbia, Universidad Externado de Colombia, Bogotá</li> </ul> <h2>Capitole de carte</h2> <ul>   <li>2018: “Algunas instituciones de derecho civil para la protección ambiental”. In: Lecturas sobre Derecho del Medio ambiente. Volumul XVII. Columbia. Editura: Universidad Externado de Colombia. pp. 241–264.</li>   <li>2018: “La contaminación hídrica por mercurio y su manejo en el derecho colombiano”. In: Tratado de Derecho de Aguas. Columbia. Editura: Universidad Externado de Colombia. pp. 493–526.</li>   <li>2017: “La recuperación de cuerpos de agua urbanos en el derecho colombiano: el caso del río Vicachá”. In: Derecho de Aguas. Columbia. Editura: Universidad Externado de Colombia. pp. 263–290.</li>   <li>2016: Împreună cu Carolina Montes Cortes, “El uso del mercurio y sus repercusiones en el ambiente y la salud pública en Colombia”. In: Minería y Desarrollo – Medio Ambiente y Desarrollo Sostenible en la Actividad Minera. Columbia. Editura: Universidad Externado de Colombia. pp. 37–71.</li>   <li>2014: “Conocimientos tradicionales, medio ambiente e idiomas indígenas”. In: Lecturas sobre Derecho del Medio ambiente, Universidad Externado de Colombia, Bogotá, pp. 270–300.</li>   <li>2013: “Sanciones Ambientales en el Derecho suizo”. In: Derecho Sancionatorio Ambiental, Universidad Externado de Colombia, Bogotá, pp. 17–45.</li>   <li>2013: “La protección jurídica de los humedales en Colombia a la luz del derecho internacional. El caso del Lago de Tota”. In: Lecturas Sobre Derecho Del Medio Ambiente XIII, Universidad Externado de Colombia, Bogotá, pp. 257–291.</li>   <li>2011: “La protección internacional del derecho humano al medio ambiente”. In: Sindico, Francesco; Fernandez Egea, Rosa; Borrás Pentinat, Susana (eds.), Derecho Internacional del Medio Ambiente: Una Visión desde Iberoamérica / International Environmental Law: An Iberoamerican Perspective, CMP Publishing, London, pp. 421–451.</li>   <li>2007: “El nuevo reto de la cooperación internacional en el marco de la Cuenca del Río Amazonas: La gestion integrada”. In: Amaya Navas, Oscar Darío și García, María del Pilar (eds.), Gestión Integrada de Recursos Hídricos, Universidad Externado de Colombia, Bogotá, pp. 241–283.</li>   <li>2004: “Derecho a la vivienda en Africa Subsahariana”. In: Observatori de Drets Economics Social i Culturals, Globalization and Social Equity, Barcelona, pp. 55–69.</li>   <li>2003: “Del desarrollo sostenible al desarrollo humano sostenible”. In: Lecturas sobre Derecho del Medio ambiente IV, Universidad Externado de Colombia, Bogotá, pp. 317–353.</li>   <li>2000: “El efecto directo de las directivas comunitarias de medio ambiente”. In: Lecturas sobre Derecho del Medio ambiente I, Universidad Externado de Colombia, Bogotá, pp. 417–460.</li>   <li>2000: “La reparación de los daños ambientales en el marco del Derecho Comunitario Europeo”. In: La Responsabilidad Ambiental, Universidad Externado de Colombia, Bogotá, pp. 305–352.</li> </ul>  <h2>Articole în reviste de specialitate</h2> <ul>   <li>2008: “La diversidad lingüística en Colombia – Protección jurídica de las lenguas indígenas”. In: Revista Pensamiento Jurídico, Universitatea Națională din Columbia, nr. 22 (2008), pp. 253–258.</li> </ul>  <h2>Articole în reviste electronice</h2> <ul>   <li>06 | 2007: “Die Rechtsprechung des internationalen Gerichtshofs auf dem Gebiet internationaler Wasserläufe. Von Gabcikovo-Nagymaros bis Argentinien-Uruguay”. In: Jusletter (2007).</li> </ul>  <h2>Recenzie</h2> <ul>   <li>2009: Turner, Stephen, “A substantive Environmental Right. An Examination of the Legal Obligations of Decision-Makers towards the Environment”. In: Ambientalia – Revista interdisciplinară de științe ale mediului, nr. 2 (2009).</li> </ul>  <h2>Traducere juridică</h2> <ul>   <li>2001: Traducerea în limba spaniolă a articolului semnat de Déjeant-Pons, Maguelonne, „Les droits de l’homme à l’environnement au niveau national, international et europeen”: “Los derechos del hombre al medio ambiente en el ámbito nacional, mundial y europeo”. In: Justicia Ambiental, Universidad Externado de Colombia, Bogotá, 2001, pp. 25–74.</li> </ul> ",
       "partner": "PARTENERĂ",
-      "associations": "Înscrisă în lista avocaților din cantonul Zurich conform Art. 28 BGFA<br>Membră a Baroului din Barcelona Spania."
+      "role": "Avocat spaniol, Abogada"
     },
-    "anett": {
-      "role": "Avocat și Ügyvéd",
+    "daniela": {
+      "associations": "Asociația Avocaților din Zurich Elveția<br>Baroul de Avocati Cluj România.",
+      "bio": "<p>Doamna Costea are peste 25 de ani de experiență în profesii juridice, între anii 1994–2004 ca procuror în România, iar ulterior ca avocat în Elveția și în România: între 2006–2015 într-o casă de avocatură din Winterthur, între 2015–2019 ca parteneră într-o casă de avocatură din Zürich, iar din ianuarie 2020 ca parteneră la Internationale Rechtsanwälte Zürich. Din anul 2004 deține, de asemenea, propriul cabinet de avocatură în Cluj-Napoca, România.</p>  <p>Doamna Costea a obținut succese semnificative în fața Curții Europene a Drepturilor Omului de la Strasbourg, în calitate de reprezentant al unei renumite companii farmaceutice elvețiene din Basel, în mai multe proceduri de constituire de societăți cu achiziții imobiliare România–Elveția, precum și în proceduri succesorale foarte complexe Elveția–România.</p>  <p>Doamna Costea reprezintă clienți elvețieni și români în fața tuturor instanțelor și autorităților, atât în Elveția, cât și în România.</p>  <p>Prin teza de doctorat intitulată „Acquis-ul UE privind libera circulație”, doamna Costea a obținut titlul de doctor în anul 2020.</p>  <h2>Consultanță juridică și reprezentare în dreptul elvețian</h2> <ul>   <li>Dreptul străinilor (obținerea permiselor de ședere și de stabilire)</li>   <li>Drept societar, constituirea de societăți, stabilirea companiilor</li>   <li>Dreptul familiei (convenții matrimoniale, separare și divorț)</li>   <li>Drept succesoral</li>   <li>Dreptul muncii</li>   <li>Dreptul asigurărilor</li>   <li>Drept penal</li>   <li>Arbitraj</li>   <li>Recunoașterea hotărârilor românești în Elveția și a hotărârilor elvețiene în România</li>   <li>Reprezentare în fața tuturor autorităților și instanțelor</li> </ul>  <h2>Consultanță juridică și reprezentare în dreptul românesc</h2> <ul>   <li>Drept civil</li>   <li>Drept comercial</li>   <li>Drept penal</li>   <li>Reprezentare în fața tuturor instanțelor românești</li>   <li>Redactarea și analizarea documentelor juridice (contracte, procuri)</li> </ul>  <p>Consultanță juridică și reprezentare în fața Curții Europene a Drepturilor Omului de la Strasbourg.</p>  <h2>Limbi</h2> <ul>   <li>Germană</li>   <li>Engleză</li>   <li>Română (limbă maternă)</li> </ul> ",
       "partner": "PARTENERĂ",
-      "associations": "Asociația Avocaților din Zurich Elveția<br>Baroul de Avocati Szeged Ungaria."
+      "role": "Avocat"
     }
-  }
+  },
+  "legal_areas": {
+    "arbeitsrecht": "Dreptul muncii",
+    "auslaenderrecht": "Dreptul străinilor",
+    "erbrecht": "Dreptul succesiunilor",
+    "familienrecht": "Dreptul familiei",
+    "gesellschaftsrecht": "Drept societar",
+    "handelsrecht": "Drept comercial",
+    "immobilienrecht": "Drept imobiliar",
+    "internationales_recht": "Drept internațional",
+    "menschenrechte": "Drepturile omului",
+    "mietrecht": "Drept locativ",
+    "migrationsrecht": "Dreptul migrației",
+    "schiedsgerichtbarkeit": "Arbitraj",
+    "steuerrecht": "Drept fiscal",
+    "strafrecht": "Drept penal",
+    "umweltrecht": "Dreptul mediului",
+    "vertragsrecht": "Dreptul contractelor",
+    "zivilrecht": "Drept civil"
+  },
+  "nav": {
+    "kanzlei": "PRACTICĂ",
+    "kontakt": "CONTACT",
+    "rechtsanwaelte": "AVOCAȚI",
+    "rechtsgebiete": "DOMENII"
+  },
+  "sections": {
+    "bueros": "Birouri",
+    "kanzlei": "Cabinet",
+    "partnerbueros": "Birouri partenere în străinătate",
+    "rechtsanwaelte": "Avocați",
+    "rechtsgebiete": "Domenii de activitate"
+  },
+  "stats": {
+    "countries": "7 Țări",
+    "countries_list": "Elveția, Ungaria, România, Spania, Columbia, Finlanda, Moldova.",
+    "experience": "30 de ani de experiență",
+    "experience_list": "Gafner-Rojas (din 1994), Costea (din 1994), Iltanen (din 1998).",
+    "languages": "10 Limbi",
+    "languages_list": "Germană, Engleză, Spaniolă, Română, Maghiară, Portugheză, Finlandeză, Franceză, Italiană, Japoneză."
+  },
+  "title": "IRAZ - Internationale Rechtsanwälte Zürich",
+  "welcome": "Bine ați venit pe site-ul nostru"
 }

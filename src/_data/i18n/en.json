@@ -1,76 +1,78 @@
 {
-  "title": "IRAZ - International Lawyers Zurich",
   "carouselText": "International<br>Trustworthy<br>Partners",
-  "welcome": "Welcome to Our Website",
-  "nav": {
-    "kanzlei": "FIRM",
-    "rechtsanwaelte": "LAWYERS",
-    "rechtsgebiete": "PRACTICE AREAS",
-    "kontakt": "CONTACT"
-  },
-  "sections": {
-    "kanzlei": "Law Firm",
-    "rechtsanwaelte": "Lawyers",
-    "rechtsgebiete": "Practice Areas",
-    "bueros": "Offices",
-    "partnerbueros": "Partner Offices & Cooperations"
-  },
-  "kanzlei_content": {
-    "p1": "The world is constantly in motion, characterized by transnational and multicultural relationships...",
-    "p2": "We are a multinational team of lawyers...",
-    "p3": "Our office is located in a beautiful environment in Zurich..."
-  },
-  "stats": {
-    "countries": "7 Countries",
-    "countries_list": "Switzerland, Hungary, Romania, Spain, Colombia, Finland, Moldova.",
-    "languages": "10 Languages",
-    "languages_list": "German, English, Spanish, Romanian, Hungarian, Portuguese, Finnish, French, Italian, Japanese.",
-    "experience": "30 Years Experience",
-    "experience_list": "Gafner-Rojas (since 1994), Costea (since 1994), Iltanen (since 1998)."
-  },
-  "legal_areas": {
-    "zivilrecht": "Civil Law",
-    "familienrecht": "Family Law",
-    "immobilienrecht": "Real Estate Law",
-    "handelsrecht": "Commercial Law",
-    "vertragsrecht": "Contract Law",
-    "gesellschaftsrecht": "Corporate Law",
-    "erbrecht": "Inheritance Law",
-    "migrationsrecht": "Migration Law",
-    "strafrecht": "Criminal Law",
-    "steuerrecht": "Tax Law",
-    "arbeitsrecht": "Labor Law",
-    "internationales_recht": "International Law",
-    "umweltrecht": "Environmental Law",
-    "mietrecht": "Tenancy Law",
-    "auslaenderrecht": "Immigration Law",
-    "menschenrechte": "Human Rights",
-    "schiedsgerichtbarkeit": "Arbitration"
-  },
   "cta": {
-    "text": "Schedule your consultation today",
-    "btn": "CONTACT"
+    "btn": "CONTACT",
+    "text": "Schedule your consultation today"
   },
   "footer": {
     "address_title": "Address",
     "lawyers_title": "Lawyers"
   },
+  "kanzlei_content": {
+    "p1": "In a world of complex, diverse and fast changing business environments, IRAZ offers efficient solutions for private and corporate clients, with a particular focus on cross-border activities in Switzerland, Spain, Romania, Hungary, Finland and South America.",
+    "p2": "Our multinational team of lawyers and selected consultants complement each other in the best possible way, allowing us to deliver high-quality service that you deserve, including legal advice and legal representation in Switzerland and our target countries. Our lawyers are qualified in Switzerland and at least an additional EU-country.",
+    "p3": "Centrally located near Bellevue, IRAZ is within walking distance from the Stadelhofen train station and lake Zurich. Next to our headquarter in Zurich, our lawyers maintain law firms in Barcelona, Spain, Cluj-Napoca, Romania and Szeged, Hungary.  "
+  },
   "lawyers": {
-    "daniela": {
-      "role": "Attorney-at-Law and Avocat",
+    "anett": {
+      "associations": "Zurich Bar Association Switzerland<br>Szeged Bar Association Hungary.",
+      "bio": "<h2>Specialties</h2> <ul> <li>Commercial law,</li> <li>Company law (company law)</li> <li>Law of obligations (contracts)</li> <li>Inheritance law</li> <li>Family law</li> <li>Labor law</li> <li>Status of foreigners, immigration law (asylum law)</li> <li>Insurance law</li> <li>General legal advice, legal representation</li> <li>Criminal law (representation of victims)</li> <li>General legal advice for companies related to starting a business and entering the market (ÀFA representation in Switzerland)/ “Family Office”</li> <li>Real estate law: full-scale management of the sale and purchase of real estate, including legal drafting of contracts countersignature</li> <li>Attorney countersignature for Hungarian administration</li> </ul>  <h2>Professional experience</h2> <ul> <li>Partner and Attorney/ Internationale Rechtsanwälte Zürich, Switzerland (since 2020)</li> <li>Attorney at a law firm in Zurich, Switzerland (2016-2019)</li> <li>Leading Counsel/ DSM Composite Resins AG in Schaffhausen, Switzerland (2010-2015)</li> <li>Attorney at a Finnish law firm in Finland (2004-2009)</li> <li>Partner and Attorney at law firm in Szeged, Hungary (2002-2004)</li> <li>Trainee Attorney in Szeged, Hungary (1998-2002)</li> </ul>  <h2>Education</h2> <ul> <li>Bar exam (2002)</li> <li>University degree in economics and law with a specialist degree (2001)</li> <li>Doctorate in law (1998)</li> </ul>  <h2>Professional organization membership</h2> <ul> <li>Zurich Bar Association</li> <li>Szeged Bar Association</li> </ul>  <h2>Languages</h2> <ul> <li>Hungarian (mother tongue)</li> <li>German</li> <li>English</li> <li>Finnish</li> </ul>",
       "partner": "PARTNER",
-      "associations": "Zurich Bar Association Switzerland<br>Cluj Bar Association Romania.",
-      "bio": "Ms. Costea has more than 25 years of experience in legal professions, serving as a prosecutor in Romania between 1994-2004, and subsequently as an attorney in Switzerland and Romania. She advises and represents clients in various legal fields, particularly in civil law, criminal law, and international private law."
+      "role": "Attorney-at-Law and Ügyvéd"
     },
     "claudia": {
-      "role": "Spanish Attorney-at-Law, Abogada",
+      "associations": "Registered in the list of lawyers of the Canton of Zurich according to Art. 28 BGFA<br>Member of the Barcelona Bar Association Spain.",
+      "bio": "<h2>AREAS OF PRACTICE</h2> <ul>   <li>Family law</li>   <li>Inheritance law</li>   <li>Employment law</li>   <li>Immigration and foreign nationals law</li>   <li>Environmental law</li>   <li>Trademark law</li>   <li>Legal advice and representation before the European Court of Human Rights</li>   <li>Private international law</li>   <li>Legal support for market entry and business start-ups in Switzerland, Spain, and Colombia</li> </ul>  <h2>PROFESSIONAL EXPERIENCE</h2> <ul>   <li>Attorney-at-law, Partner at “Internationale Rechtsanwälte Zürich” (since 2020)</li>   <li>Independent legal consultant, Winterthur (2015–2019)</li>   <li>Legal counsel at a law firm in Winterthur (2013–2015)</li>   <li>Legal consultant for an international law firm in cases before the International Court of Justice, Washington (2010–2012)</li>   <li>Research assistant, University of St. Gallen, Chair of International and European Law, Foreign Public Law and Comparative Law, St. Gallen (2007–2008)</li>   <li>Research assistant and lecturer in International Law and Environmental Law, University of Barcelona, Institute of International Law and Economics, Barcelona (1998–2003)</li>   <li>Visiting lecturer and researcher in International Law and International Environmental Law, Universidad Externado de Colombia, Bogotá (since 1998)</li> </ul>  <h2>EDUCATION</h2> <ul>   <li>Master in Legal Practice (Anwaltspraxis), Universitat Oberta de Catalunya (2019)</li>   <li>Doctoral studies, awarded the degree Doctor of Law (Dr. iur.), University of St. Gallen (2012). Latin America Prize 2012 (HSG) for the best dissertation in Latin American studies</li>   <li>Master in International Studies, specialization in European Law, University of Barcelona (2006)</li>   <li>Studies in Law, Universidad Externado de Colombia (Bogotá – Colombia), lic. iur., degree recognized by the Spanish Ministry of Education and Science (1994)</li> </ul>  <h2>LANGUAGES</h2> <ul>   <li>Spanish (native)</li>   <li>German</li>   <li>English</li>   <li>Portuguese</li>   <li>French</li>   <li>Italian</li> </ul>  <h2>PUBLICATIONS</h2>  <h2>Independent works</h2> <ul>   <li>2018: Environmental International Law and its Reflection in Colombia. Universidad Externado de Colombia. 488 pages.</li>   <li>2013: Environmental limitations on the freedom of enterprise in Colombian law, Universidad Externado de Colombia, Bogotá</li>   <li>2012: The protection of indigenous languages in international law and in the Colombian legal system, Oberhänsli Satz &amp; Druck, Winterthur</li>   <li>2004: Evolution of the characteristics and principles of International Environmental Law and its application in Colombia, Universidad Externado de Colombia, Bogotá</li> </ul><h2>Book chapters</h2> <ul>   <li>2018: “Algunas instituciones de derecho civil para la protección ambiental”. In: Lecturas sobre Derecho del Medio ambiente. Volume XVII. Colombia. Publisher: Universidad Externado de Colombia. pp. 241–264.</li>   <li>2018: “La contaminación hídrica por mercurio y su manejo en el derecho colombiano”. In: Tratado de Derecho de Aguas. Colombia. Publisher: Universidad Externado de Colombia. pp. 493–526.</li>   <li>2017: “La recuperación de cuerpos de agua urbanos en el derecho colombiano: el caso del río Vicachá”. In: Derecho de Aguas. Colombia. Publisher: Universidad Externado de Colombia. pp. 263–290.</li>   <li>2016: With Carolina Montes Cortes, “El uso del mercurio y sus repercusiones en el ambiente y la salud pública en Colombia”. In: Minería y Desarrollo – Medio Ambiente y Desarrollo Sostenible en la Actividad Minera. Colombia. Publisher: Universidad Externado de Colombia. pp. 37–71.</li>   <li>2014: “Conocimientos tradicionales, medio ambiente e idiomas indígenas”. In: Lecturas sobre Derecho del Medio ambiente, Universidad Externado de Colombia, Bogotá, pp. 270–300.</li>   <li>2013: “Sanciones Ambientales en el Derecho suizo”. In: Derecho Sancionatorio Ambiental, Universidad Externado de Colombia, Bogotá, pp. 17–45.</li>   <li>2013: “La protección jurídica de los humedales en Colombia a la luz del derecho internacional. El caso del Lago de Tota”. In: Lecturas Sobre Derecho Del Medio Ambiente XIII, Universidad Externado de Colombia, Bogotá, pp. 257–291.</li>   <li>2011: “La protección internacional del derecho humano al medio ambiente”. In: Sindico, Francesco; Fernandez Egea, Rosa; Borrás Pentinat, Susana (eds.), Derecho Internacional del Medio Ambiente: Una Visión desde Iberoamérica / International Environmental Law: An Iberoamerican Perspective, CMP Publishing, London, pp. 421–451.</li>   <li>2007: “El nuevo reto de la cooperación internacional en el marco de la Cuenca del Río Amazonas: La gestion integrada”. In: Amaya Navas, Oscar Darío and García, María del Pilar (eds.), Gestión Integrada de Recursos Hídricos, Universidad Externado de Colombia, Bogotá, pp. 241–283.</li>   <li>2004: “Derecho a la vivienda en Africa Subsahariana”. In: Observatori de Drets Economics Social i Culturals, Globalization and Social Equity, Barcelona, pp. 55–69.</li>   <li>2003: “Del desarrollo sostenible al desarrollo humano sostenible”. In: Lecturas sobre Derecho del Medio ambiente IV, Universidad Externado de Colombia, Bogotá, pp. 317–353.</li>   <li>2000: “El efecto directo de las directivas comunitarias de medio ambiente”. In: Lecturas sobre Derecho del Medio ambiente I, Universidad Externado de Colombia, Bogotá, pp. 417–460.</li>   <li>2000: “La reparación de los daños ambientales en el marco del Derecho Comunitario Europeo”. In: La Responsabilidad Ambiental, Universidad Externado de Colombia, Bogotá, pp. 305–352.</li> </ul>  <h2>Contributions to journals</h2> <ul>   <li>2008: “La diversidad lingüística en Colombia – Protección jurídica de las lenguas indígenas”. In: Revista Pensamiento Jurídico, National University of Colombia, Issue No. 22 (2008), pp. 253–258.</li> </ul>  <h2>Contributions to electronic journals</h2> <ul>   <li>06 | 2007: “Die Rechtsprechung des internationalen Gerichtshofs auf dem Gebiet internationaler Wasserläufe. Von Gabcikovo-Nagymaros bis Argentinien-Uruguay”. In: Jusletter (2007).</li> </ul>  <h2>Review</h2> <ul>   <li>2009: Turner, Stephen, “A substantive Environmental Right. An Examination of the Legal Obligations of Decision-Makers towards the Environment”. In: Ambientalia – Revista interdisciplinar de ciencias ambientales, No. 2 (2009).</li> </ul>  <h2>Legal translation</h2> <ul>   <li>2001: Translation into Spanish of the article by Déjeant-Pons, Maguelonne, “Les droits de l’homme à l’environnement au niveau national, international et europeen”: “Los derechos del hombre al medio ambiente en el ámbito nacional, mundial y europeo”. In: Justicia Ambiental, Universidad Externado de Colombia, Bogotá, 2001, pp. 25–74.</li> </ul> ",
       "partner": "PARTNER",
-      "associations": "Registered in the list of lawyers of the Canton of Zurich according to Art. 28 BGFA<br>Member of the Barcelona Bar Association Spain."
+      "role": "Spanish Attorney-at-Law, Abogada"
     },
-    "anett": {
-      "role": "Attorney-at-Law and Ügyvéd",
+    "daniela": {
+      "associations": "Zurich Bar Association Switzerland<br>Cluj Bar Association Romania.",
+      "bio": "<p>Ms. Costea has more than 25 years of experience in legal professions, from 1994 to 2004 as a public prosecutor in Romania, and subsequently as an attorney-at-law in Switzerland and Romania: from 2006 to 2015 in a law firm in Winterthur, from 2015 to 2019 as a partner in a law firm in Zurich, and since January 2020 as a partner at Internationale Rechtsanwälte Zürich. Since 2004, she has also operated her own law office in Cluj-Napoca, Romania.</p>  <p>Ms. Costea has achieved significant successes before the European Court of Human Rights in Strasbourg, as legal representative of a renowned Swiss pharmaceutical company based in Basel, in several company formations involving real estate acquisitions between Romania and Switzerland, as well as in highly complex inheritance proceedings between Switzerland and Romania.</p>  <p>Ms. Costea represents Swiss and Romanian clients before all courts and authorities, both in Switzerland and in Romania.</p>  <p>With her doctoral dissertation entitled “EU Acquis relating to Freedom of Movement”, Ms. Costea was awarded the doctoral degree in 2020.</p>  <h2>Legal advice and representation under Swiss law</h2> <ul>   <li>Immigration law (obtaining residence permits and settlement permits)</li>   <li>Company law, company formation, business establishment</li>   <li>Family law (marital agreements, separation and divorce agreements)</li>   <li>Inheritance law</li>   <li>Employment law</li>   <li>Insurance law</li>   <li>Criminal law</li>   <li>Arbitration</li>   <li>Recognition of Romanian judgments in Switzerland and Swiss judgments in Romania</li>   <li>Representation before all authorities and courts</li> </ul>  <h2>Legal advice and representation under Romanian law</h2> <ul>   <li>Civil law</li>   <li>Commercial law</li>   <li>Criminal law</li>   <li>Representation before all Romanian courts</li>   <li>Preparation and review of legal documents (contracts, powers of attorney)</li> </ul>  <p>Legal advice and representation before the European Court of Human Rights in Strasbourg.</p>  <h2>Languages</h2> <ul>   <li>German</li>   <li>English</li>   <li>Romanian (native)</li> </ul> ",
       "partner": "PARTNER",
-      "associations": "Zurich Bar Association Switzerland<br>Szeged Bar Association Hungary."
+      "role": "Attorney-at-Law and Avocat"
     }
-  }
+  },
+  "legal_areas": {
+    "arbeitsrecht": "Labor Law",
+    "auslaenderrecht": "Immigration Law",
+    "erbrecht": "Inheritance Law",
+    "familienrecht": "Family Law",
+    "gesellschaftsrecht": "Corporate Law",
+    "handelsrecht": "Commercial Law",
+    "immobilienrecht": "Real Estate Law",
+    "internationales_recht": "International Law",
+    "menschenrechte": "Human Rights",
+    "mietrecht": "Tenancy Law",
+    "migrationsrecht": "Migration Law",
+    "schiedsgerichtbarkeit": "Arbitration",
+    "steuerrecht": "Tax Law",
+    "strafrecht": "Criminal Law",
+    "umweltrecht": "Environmental Law",
+    "vertragsrecht": "Contract Law",
+    "zivilrecht": "Civil Law"
+  },
+  "nav": {
+    "kanzlei": "FIRM",
+    "kontakt": "CONTACT",
+    "rechtsanwaelte": "LAWYERS",
+    "rechtsgebiete": "PRACTICE AREAS"
+  },
+  "sections": {
+    "bueros": "Offices",
+    "kanzlei": "Law Firm",
+    "partnerbueros": "Partner offices abroad",
+    "rechtsanwaelte": "Lawyers",
+    "rechtsgebiete": "Practice Areas"
+  },
+  "stats": {
+    "countries": "7 Countries",
+    "countries_list": "Switzerland, Hungary, Romania, Spain, Colombia, Finland, Moldova.",
+    "experience": "30 Years Experience",
+    "experience_list": "Gafner-Rojas (since 1994), Costea (since 1994), Iltanen (since 1998).",
+    "languages": "10 Languages",
+    "languages_list": "German, English, Spanish, Romanian, Hungarian, Portuguese, Finnish, French, Italian, Japanese."
+  },
+  "title": "IRAZ - Internationale Rechtsanwälte Zürich",
+  "welcome": "Welcome to Our Website"
 }
