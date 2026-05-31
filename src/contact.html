@@ -141,7 +141,7 @@ permalink: "/{{ lang }}/contact.html"
         <section class="container">
             <div class="contact-grid">
                 <div class="contact-details">
-                    <h2>IRAZ – Internationale Rechtsanwälte</h2>
+                    <h2>IRAZ – Internationale Rechtsanwälte Zürich</h2>
                     <div class="contact-info-block">
                         <p><i class="fas fa-map-marker-alt"></i> Bellerivestrasse 2, 8008 Zürich, Schweiz</p>
                         <p><i class="fas fa-phone"></i> +41 43 536 13 33</p>
@@ -264,7 +264,7 @@ permalink: "/{{ lang }}/contact.html"
                 </div>
                 <div class="footer-info">
                     <h3>{{ i18n[lang].footer.address_title }}</h3>
-                    <p>IRAZ – Internationale Rechtsanwälte
+                    <p>IRAZ – Internationale Rechtsanwälte Zürich
                         <br>Bellerivestrasse 2
                         <br>8008 Zürich
                         <br>Schweiz
@@ -278,23 +278,32 @@ permalink: "/{{ lang }}/contact.html"
                         <br>Dr. iur. Claudia Maria Gafner-Rojas
                         <br>Dr. iur. Anett Iltanen</p>
                 </div>
-                <div class="footer-info">
-                    <h3>{{ i18n[lang].sections.rechtsgebiete }}</h3>
-                    <p>{{ i18n[lang].legal_areas.zivilrecht }}
-                        <br>{{ i18n[lang].legal_areas.familienrecht }}
-                        <br>{{ i18n[lang].legal_areas.strafrecht }}
-                        <br>{{ i18n[lang].legal_areas.gesellschaftsrecht }}
-                        <br>{{ i18n[lang].legal_areas.erbrecht }}
-                        <br>{{ i18n[lang].legal_areas.umweltrecht }}</p>
-                </div>
-                <div class="footer-info">
-                    <h3>&nbsp;</h3>
-                    <p>{{ i18n[lang].legal_areas.auslaenderrecht }}
-                        <br>{{ i18n[lang].legal_areas.vertragsrecht }}
-                        <br>{{ i18n[lang].legal_areas.mietrecht }}
-                        <br>{{ i18n[lang].legal_areas.steuerrecht }}
-                        <br>{{ i18n[lang].legal_areas.menschenrechte }}
-                        <br>{{ i18n[lang].legal_areas.internationales_recht }}</p>
+                <div class="footer-info footer-info-wide">
+                    <table class="footer-table">
+                        <tr>
+                            <td colspan="2">
+                                <h3>{{ i18n[lang].sections.rechtsgebiete }}</h3>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>{{ i18n[lang].legal_areas.zivilrecht }}
+                                    <br>{{ i18n[lang].legal_areas.familienrecht }}
+                                    <br>{{ i18n[lang].legal_areas.erbrecht }}
+                                    <br>{{ i18n[lang].legal_areas.mietrecht }}
+                                    <br>{{ i18n[lang].legal_areas.vertragsrecht }}
+                                    <br>{{ i18n[lang].legal_areas.gesellschaftsrecht }}</p>
+                            </td>
+                            <td>
+                                <p>{{ i18n[lang].legal_areas.strafrecht }}
+                                    <br>{{ i18n[lang].legal_areas.auslaenderrecht }}
+                                    <br>{{ i18n[lang].legal_areas.umweltrecht }}
+                                    <br>{{ i18n[lang].legal_areas.steuerrecht }}
+                                    <br>{{ i18n[lang].legal_areas.menschenrechte }}
+                                    <br>{{ i18n[lang].legal_areas.internationales_recht }}</p>
+                            </td>
+                        </tr>
+                    </table>
                 </div>
             </div>
         </div>

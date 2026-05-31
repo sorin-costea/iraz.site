@@ -437,7 +437,6 @@ body {
 }
 
 .main-footer .container {
-    max-width: 100%; /* Allows it to expand beyond 1200px */
     padding: 0 40px; /* Adds consistent padding to the sides */
 }
 .footer-content {
@@ -459,8 +458,30 @@ body {
     font-size: 0.9rem;
 }
 
-.footer-logo, .footer-info {
-    flex: 1;
+.footer-logo {
+    flex: 0 0 180px;
+}
+
+.footer-info {
+    flex: 3;
+}
+
+.footer-info-wide {
+    flex: 4;
+}
+
+.footer-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.footer-table td {
+    vertical-align: top;
+    padding-right: 20px;
+}
+
+.footer-table td:last-child {
+    padding-right: 0;
 }
 
 .footer-logo img {
