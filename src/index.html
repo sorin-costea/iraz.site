@@ -117,7 +117,9 @@ permalink: "/{{ lang }}/index.html"
                 <h2 class="section-title" id="rechtsanwaelte">{{ i18n[lang].sections.rechtsanwaelte }}</h2>
                 <div class="grid-container">
                     <div class="grid-item">
-                        <img src="{{ '/img/CAMELIA.jpg' | url }}" alt="Dr. iur. Daniela Camelia Costea">
+                        <a href="{{ '/' | append: lang | append: '/camelia.html' | url }}">
+                            <img src="{{ '/img/CAMELIA.jpg' | url }}" alt="Dr. iur. Daniela Camelia Costea">
+                        </a>
                         <h3 class="section-title-simple">Dr. iur. Daniela Camelia Costea</h3>
                         <p><i>{{ i18n[lang].lawyers.daniela.role }}</i><br><br></p>
                         <p><b>{{ i18n[lang].lawyers.daniela.partner }}</b><br><br></p>
@@ -140,7 +142,9 @@ permalink: "/{{ lang }}/index.html"
 
                     <!-- Column 2 -->
                     <div class="grid-item">
-                        <img src="{{ '/img/CLAUDIA.jpg' | url }}" alt="Dr. iur. Claudia Maria Gafner-Rojas">
+                        <a href="{{ '/' | append: lang | append: '/claudia.html' | url }}">
+                            <img src="{{ '/img/CLAUDIA.jpg' | url }}" alt="Dr. iur. Claudia Maria Gafner-Rojas">
+                        </a>
                         <h3 class="section-title-simple">Dr. iur. Claudia Maria Gafner-Rojas</h3>
                         <p><i>{{ i18n[lang].lawyers.claudia.role }}</i><br><br></p>
                         <p><b>{{ i18n[lang].lawyers.claudia.partner }}</b><br><br></p>
@@ -163,7 +167,9 @@ permalink: "/{{ lang }}/index.html"
 
                     <!-- Column 3 -->
                     <div class="grid-item">
-                        <img src="{{ '/img/ANETT.jpg' | url }}" alt="Dr. iur. Anett Iltanen">
+                        <a href="{{ '/' | append: lang | append: '/anett.html' | url }}">
+                            <img src="{{ '/img/ANETT.jpg' | url }}" alt="Dr. iur. Anett Iltanen">
+                        </a>
                         <h3 class="section-title-simple">Dr. iur. Anett Iltanen</h3>
                         <p><i>{{ i18n[lang].lawyers.anett.role }}</i><br><br></p>
                         <p><b>{{ i18n[lang].lawyers.anett.partner }}</b><br><br></p>
@@ -212,7 +218,7 @@ permalink: "/{{ lang }}/index.html"
                     </div>
                     <div class="legal-area-item">
                         <i class="fas fa-passport"></i>
-                        <span>{{ i18n[lang].legal_areas.migrationsrecht }}</span>
+                        <span>{{ i18n[lang].legal_areas.auslaenderrecht }}</span>
                     </div>
                     <div class="legal-area-item">
                         <i class="fas fa-handshake"></i>
@@ -279,7 +285,7 @@ permalink: "/{{ lang }}/index.html"
                 </div>
                 <div class="footer-info">
                     <h3>&nbsp;</h3>
-                    <p>{{ i18n[lang].legal_areas.migrationsrecht }}
+                    <p>{{ i18n[lang].legal_areas.auslaenderrecht }}
                         <br>{{ i18n[lang].legal_areas.vertragsrecht }}
                         <br>{{ i18n[lang].legal_areas.mietrecht }}
                         <br>{{ i18n[lang].legal_areas.steuerrecht }}

@@ -49,7 +49,7 @@ body {
 
 /* Main header styles */
 .main-header {
-    background-color: rgba(110, 80, 35, 0.8);
+    background-color: rgba(194, 152, 95, 0.8);
     padding: 15px 0;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     position: absolute;
@@ -104,7 +104,7 @@ body {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: rgba(110, 80, 35, 0.95);
+    background-color: rgba(194, 152, 95, 0.95);
     list-style: none;
     min-width: 280px;
     padding: 10px 0;
@@ -321,6 +321,12 @@ body {
     border-radius: 8px;
     margin-bottom: 20px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.grid-item a:hover img {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
 }
 
 .contact-info-list {
@@ -342,14 +348,14 @@ body {
 }
 
 .contact-item i {
-    color: rgba(110, 80, 35, 1.0); /* Gold icon */
+    color: rgba(194, 152, 95, 1.0); /* Gold icon */
     font-size: 1.2rem;
     width: 20px; /* Fixed width keeps text aligned even if icons vary slightly */
     text-align: center;
 }
 
 .contact-item a:hover {
-    color: rgba(110, 80, 35, 1.0);
+    color: rgba(194, 152, 95, 1.0);
 }
 
 .legal-areas-grid {
@@ -370,7 +376,7 @@ body {
 
 .legal-area-item i {
     font-size: 2.5rem;
-    color: #6E5023;
+    color: #C2985F;
     margin-bottom: 15px;
 }
 
@@ -413,19 +419,19 @@ body {
     font-weight: bold;
     color: white;
     text-decoration: none;
-    background-color: rgba(110, 80, 35, 0.6); /* Half-transparent Gold */
+    background-color: rgba(194, 152, 95, 0.6); /* Half-transparent Gold */
     border: 2px solid white;
     border-radius: 50px;
     transition: background-color 0.3s ease;
 }
 
 .btn-contact:hover {
-    background-color: rgba(110, 80, 35, 0.9);
+    background-color: rgba(194, 152, 95, 0.9);
 }
 
 /* Main footer styles */
 .main-footer {
-    background-color: rgba(110, 80, 35, 1.0);
+    background-color: rgba(194, 152, 95, 1.0);
     color: white;
     padding: 40px 0;
 }
@@ -483,7 +489,7 @@ body {
 }
 
 .footer-links a:hover {
-    color: rgba(110, 80, 35, 1.0);
+    color: rgba(194, 152, 95, 1.0);
 }
 
 /* Back to top button */
@@ -537,7 +543,7 @@ body {
         position: absolute;
         top: 100%;
         right: 0;
-        background-color: rgba(110, 80, 35, 1.0);
+        background-color: rgba(194, 152, 95, 1.0);
         flex-direction: column;
         width: 250px;
         padding: 20px;

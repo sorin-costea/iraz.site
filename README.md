@@ -78,6 +78,6 @@ The project is configured to automatically handle the `pathPrefix` for GitHub Pa
 - **Lawyer Profiles**: Managed via the `lawyers` object in each language's JSON file.
 
 ### Styling
-- **Primary Color**: `#6E5023` (Gold).
+- **Primary Color**: `#C2985F` (Gold).
 - **Secondary/Accent Color**: `#881017` (Burgundy).
 - The layout is responsive; mobile adjustments are handled via `@media (max-width: 768px)` in `site.css`.
