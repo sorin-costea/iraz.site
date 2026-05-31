@@ -46,10 +46,12 @@
 The site uses a "Single Source of Truth" approach.
 1. Adding a new language is as simple as adding a new `.json` file in `src/_data/i18n/`.
 2. 11ty loops through these files and generates a corresponding folder and set of pages (e.g., `/es/index.html`, `/es/camelia.html`).
-3. **Templates**: Always use the `| url` filter for links to ensure compatibility between local and production environments:
+3. **Layout Consistency**: To handle varying text lengths across languages (e.g., footer titles), specific CSS rules like `min-height` are used to ensure vertical alignment of content blocks.
+4. **Templates**: Always use the `| url` filter for links to ensure compatibility between local and production environments:
    `href="{{ '/assets/site.css' | url }}"`
 
 ### Key Features & Components
+- **Hero Sections**: Full-width visual headers. The home page uses a dynamic **Carousel**, while other pages (like Contact) use a static **Page Hero**.
 - **Dropdown Navigation**: The "Rechtsanwälte" menu item contains a dropdown linking to individual profiles.
 - **Responsive Design**: Mobile-friendly hamburger menu and stackable grids for team members and legal areas.
 - **Back to Top**: Smooth scroll button implemented in `site.js`.
@@ -62,9 +64,11 @@ The site is deployed automatically using **GitHub Actions**.
 3. The site is built and published to the environment.
 
 ### Domain Transition
-Currently, the site uses a `pathPrefix` for GitHub subfolders. When moving to the custom domain `iraz.ch`:
-1. Update `eleventy.config.js` to set `const pathPrefix = "/";`.
-2. Update the CNAME settings in the GitHub Pages repository settings.
+The project is configured to automatically handle the `pathPrefix` for GitHub Pages.
+- **Current Logic**: In `eleventy.config.js`, it checks `process.env.GITHUB_ACTIONS` to decide whether to apply the `/iraz.site/` prefix.
+- **Moving to `iraz.ch`**:
+    1. Update the `pathPrefix` constant in `eleventy.config.js` to always be `"/"`.
+    2. Configure the CNAME in GitHub repository settings.
 
 ## Maintenance Guide
 
@@ -74,5 +78,6 @@ Currently, the site uses a `pathPrefix` for GitHub subfolders. When moving to th
 - **Lawyer Profiles**: Managed via the `lawyers` object in each language's JSON file.
 
 ### Styling
-- Primary Color: `#881017` (Burgundy).
+- **Primary Color**: `#6E5023` (Gold).
+- **Secondary/Accent Color**: `#881017` (Burgundy).
 - The layout is responsive; mobile adjustments are handled via `@media (max-width: 768px)` in `site.css`.
