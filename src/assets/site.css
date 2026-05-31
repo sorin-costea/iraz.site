@@ -162,7 +162,7 @@ body {
     height: 600px;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/saal.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/EMPFANG.jpg');
     display: flex;
     align-items: center;
     overflow: hidden;
@@ -387,7 +387,7 @@ body {
     height: 350px;
     border-radius: 8px;
     overflow: hidden;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/saal.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/EMPFANG.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -443,7 +443,9 @@ body {
 
 .footer-info h3 {
     margin-bottom: 15px;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    min-height: 3.6rem; /* Ensures alignment even if title wraps to two lines */
 }
 
 .footer-info p {
@@ -458,15 +460,6 @@ body {
 .footer-logo img {
     height: auto;
     width: 100%;
-}
-
-.footer-info h3 {
-    margin-bottom: 15px;
-    font-size: 1.5rem;
-}
-
-.footer-info p {
-    line-height: 1.8;
 }
 
 /* Bottom footer styles */

@@ -1,5 +1,5 @@
 {
-  "carouselText": "International<br>Trustworthy<br>Partners",
+  "carouselText": "International<br>Trustworthy<br>Successful",
   "cta": {
     "btn": "CONTACT",
     "text": "Schedule your consultation today"
@@ -9,9 +9,9 @@
     "lawyers_title": "Lawyers"
   },
   "kanzlei_content": {
-    "p1": "In a world of complex, diverse and fast changing business environments, IRAZ offers efficient solutions for private and corporate clients, with a particular focus on cross-border activities in Switzerland, Spain, Romania, Hungary, Finland and South America.",
-    "p2": "Our multinational team of lawyers and selected consultants complement each other in the best possible way, allowing us to deliver high-quality service that you deserve, including legal advice and legal representation in Switzerland and our target countries. Our lawyers are qualified in Switzerland and at least an additional EU-country.",
-    "p3": "Centrally located near Bellevue, IRAZ is within walking distance from the Stadelhofen train station and lake Zurich. Next to our headquarter in Zurich, our lawyers maintain law firms in Barcelona, Spain, Cluj-Napoca, Romania and Szeged, Hungary.  "
+    "p1": "The world today is shaped by transnational and multicultural relationships. Our attorneys are admitted to practise in Switzerland and, in each case, in at least one other EU country. Against this background, we offer client-oriented solutions for complex international legal matters, particularly those relating to Spain, Romania, Hungary, Finland, Latin America, and Switzerland.",
+    "p2": "IRAZ brings together independent attorneys under one roof in Zurich. The attorneys Claudia Gafner-Rojas, Daniela Camelia Costea, and Anett Iltanen form an office-sharing association of independent attorneys, each acting in her own name. The attorneys bear sole responsibility towards their clients and are not liable for one another. Our clients decide for themselves which attorney should support them in their matters in a targeted and solution-oriented manner.",
+    "p3": "Our law office is located in an attractive area of Zurich’s Seefeld district, just a few minutes’ walk from Stadelhofen station and Lake Zurich. In addition to the main office in Zurich, our attorneys also have their own law offices in Barcelona, Spain; Cluj-Napoca, Romania; and Szeged, Hungary."
   },
   "lawyers": {
     "anett": {
@@ -21,7 +21,7 @@
       "role": "Attorney-at-Law and Ügyvéd"
     },
     "claudia": {
-      "associations": "Zurich Bar Association Switzerland<br/>Barcelona Bar Association",
+      "associations": "Zurich Bar Association Switzerland<br/>Barcelona Bar Association, Spain",
       "bio": "<p>Claudia Gafner-Rojas advises and represents private individuals in complex family law and inheritance law matters with an international dimension.</p>  <p>A particular focus of her work lies in cross-border family situations, especially in the areas of surrogacy, recognition of children, international marriages, divorces, as well as international estate planning and inheritance disputes. In addition, she assists clients with selected issues of international real estate law.</p>  <p>Her advice combines legal precision with strategic foresight and a strong understanding of sensitive personal situations.</p>  <p>Thanks to her international orientation and multilingualism, she supports clients from Switzerland and abroad with discretion, clarity, and personal commitment.</p>  <h2>AREAS OF LAW</h2> <ul>   <li>Family law</li>   <li>Inheritance law</li>   <li>Private international law</li>   <li>Cross-border family and asset matters</li>   <li>Surrogacy and recognition of children</li>   <li>International real estate law</li>   <li>Criminal law</li>   <li>Immigration law</li>   <li>Representation before the European Court of Human Rights</li> </ul> <br/> <h2>PROFESSIONAL EXPERIENCE</h2> <br/> <ul>   <li>Attorney-at-law at IRAZ Internationale Rechtsanwältinnen Zürich (since 2020)</li>   <li>Independent legal consultant in Winterthur (2015–2019)</li>   <li>Legal specialist at a law firm in Winterthur (2013–2015)</li>   <li>Legal consultant for an international law firm in Washington, D.C. in proceedings before the International Court of Justice (2010–2012)</li>   <li>Research assistant at the University of St. Gallen in the fields of public international and European law, comparative law, and foreign public law (2007–2008)</li>   <li>Research assistant and lecturer in public international law at the University of Barcelona (1998–2003)</li>   <li>Guest lecturer and researcher in public international law at Universidad Externado de Colombia, Bogotá (since 1998)</li> </ul> <br/> <hr/> <br/> <h2>EDUCATION</h2> <br/> <ul>   <li>     Dr. iur., University of St. Gallen (2012)<br/>     Latin America Prize of the University of St. Gallen for the best dissertation in Latin American Studies   </li>   <li>Master in Legal Practice, Universitat Oberta de Catalunya (2019)</li>   <li>Master in International Studies with a focus on European Law, University of Barcelona (2006)</li>   <li>Law studies, Universidad Externado de Colombia, Bogotá (1994)</li> </ul> <br/> <hr/> <br/> <h2>LANGUAGES</h2> <br/> <ul>   <li>Spanish (native language)</li>   <li>German</li>   <li>English</li>   <li>Portuguese</li>   <li>French</li>   <li>Italian</li> </ul> <br/> <hr/> <br/> <h2>PUBLICATIONS</h2> <br/> <p>Author of numerous academic publications and specialist articles in the fields of public international law and international law.</p>",
       "partner": "PARTNER",
       "role": "Attorney-at-Law and Abogada"
@@ -34,18 +34,14 @@
     }
   },
   "legal_areas": {
-    "arbeitsrecht": "Labor Law",
     "auslaenderrecht": "Immigration Law",
     "erbrecht": "Inheritance Law",
     "familienrecht": "Family Law",
     "gesellschaftsrecht": "Corporate Law",
-    "handelsrecht": "Commercial Law",
-    "immobilienrecht": "Real Estate Law",
     "internationales_recht": "International Law",
     "menschenrechte": "Human Rights",
     "mietrecht": "Tenancy Law",
     "migrationsrecht": "Migration Law",
-    "schiedsgerichtbarkeit": "Arbitration",
     "steuerrecht": "Tax Law",
     "strafrecht": "Criminal Law",
     "umweltrecht": "Environmental Law",
@@ -61,18 +57,18 @@
   "sections": {
     "bueros": "Offices",
     "kanzlei": "Law Firm",
-    "partnerbueros": "Partner offices abroad",
+    "partnerbueros": "Collaborators",
     "rechtsanwaelte": "Lawyers",
     "rechtsgebiete": "Practice Areas"
   },
   "stats": {
     "countries": "7 Countries",
     "countries_list": "Switzerland, Hungary, Romania, Spain, Colombia, Finland, Moldova.",
-    "experience": "30 Years Experience",
+    "experience": "30 years experience",
     "experience_list": "Gafner-Rojas (since 1994), Costea (since 1994), Iltanen (since 1998).",
-    "languages": "10 Languages",
-    "languages_list": "German, English, Spanish, Romanian, Hungarian, Portuguese, Finnish, French, Italian, Japanese."
+    "languages": "9 Languages",
+    "languages_list": "German, English, Spanish, Romanian, Hungarian, Portuguese, Finnish, French, Italian."
   },
   "title": "IRAZ - Internationale Rechtsanwälte Zürich",
-  "welcome": "Welcome to Our Website"
+  "welcome": "Welcome to our website"
 }
