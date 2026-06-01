@@ -73,11 +73,10 @@ The project is configured to automatically handle the `pathPrefix` for GitHub Pa
 ## Maintenance Guide
 
 ### Updating Content
-- **Translations**: Edit the relevant file in `src/_data/i18n/`.
+- **Translations**: Edit the relevant file in `src/_data/i18n/`. The **Easy I18n** plugin for IntelliJ IDEA is recommended for handling translation texts.
 - **Images**: Add new images to `src/img/` and reference them in the JSON or HTML using the `| url` filter.
 - **Lawyer Profiles**: Managed via the `lawyers` object in each language's JSON file.
 
 ### Styling
 - **Primary Color**: `#AA9574` (Gold).
-- **Secondary/Accent Color**: `#881017` (Burgundy).
 - The layout is responsive; mobile adjustments are handled via `@media (max-width: 768px)` in `site.css`.
