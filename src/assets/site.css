@@ -49,7 +49,7 @@ body {
 
 /* Main header styles */
 .main-header {
-    background-color: rgba(194, 152, 95, 0.8);
+    background-color: rgb(170, 149, 116, 0.8);
     padding: 15px 0;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     position: absolute;
@@ -104,7 +104,7 @@ body {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: rgba(194, 152, 95, 0.95);
+    background-color: rgb(170, 149, 116, 0.95);
     list-style: none;
     min-width: 280px;
     padding: 10px 0;
@@ -348,14 +348,14 @@ body {
 }
 
 .contact-item i {
-    color: rgba(194, 152, 95, 1.0); /* Gold icon */
+    color: rgb(170, 149, 116, 1.0); /* Gold icon */
     font-size: 1.2rem;
     width: 20px; /* Fixed width keeps text aligned even if icons vary slightly */
     text-align: center;
 }
 
 .contact-item a:hover {
-    color: rgba(194, 152, 95, 1.0);
+    color: rgb(170, 149, 116, 1.0);
 }
 
 .legal-areas-grid {
@@ -376,7 +376,7 @@ body {
 
 .legal-area-item i {
     font-size: 2.5rem;
-    color: #C2985F;
+    color: #AA9574;
     margin-bottom: 15px;
 }
 
@@ -419,19 +419,19 @@ body {
     font-weight: bold;
     color: white;
     text-decoration: none;
-    background-color: rgba(194, 152, 95, 0.6); /* Half-transparent Gold */
+    background-color: rgb(170, 149, 116, 0.6); /* Half-transparent Gold */
     border: 2px solid white;
     border-radius: 50px;
     transition: background-color 0.3s ease;
 }
 
 .btn-contact:hover {
-    background-color: rgba(194, 152, 95, 0.9);
+    background-color: rgb(170, 149, 116, 0.9);
 }
 
 /* Main footer styles */
 .main-footer {
-    background-color: rgba(194, 152, 95, 1.0);
+    background-color: rgb(170, 149, 116, 1.0);
     color: white;
     padding: 40px 0;
 }
@@ -510,7 +510,7 @@ body {
 }
 
 .footer-links a:hover {
-    color: rgba(194, 152, 95, 1.0);
+    color: rgb(170, 149, 116, 1.0);
 }
 
 /* Back to top button */
@@ -564,7 +564,7 @@ body {
         position: absolute;
         top: 100%;
         right: 0;
-        background-color: rgba(194, 152, 95, 1.0);
+        background-color: rgb(170, 149, 116, 1.0);
         flex-direction: column;
         width: 250px;
         padding: 20px;
