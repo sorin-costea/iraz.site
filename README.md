@@ -63,12 +63,19 @@ The site is deployed automatically using **GitHub Actions**.
 2. GitHub triggers the `Deploy to GitHub Pages` workflow.
 3. The site is built and published to the environment.
 
-### Domain Transition
-The project is configured to automatically handle the `pathPrefix` for GitHub Pages.
-- **Current Logic**: In `eleventy.config.js`, it checks `process.env.GITHUB_ACTIONS` to decide whether to apply the `/iraz.site/` prefix.
-- **Moving to `iraz.ch`**:
-    1. Update the `pathPrefix` constant in `eleventy.config.js` to always be `"/"`.
-    2. Configure the CNAME in GitHub repository settings.
+### Custom Domain
+The project is configured to serve from the root path in both supported modes:
+- Local development: `http://localhost:8080/`
+- Production: `https://iraz.ch/`
+
+In `eleventy.config.js`, `pathPrefix` is always set to `"/"`. The site is no longer intended to be served from the GitHub repository subpath `https://sorin-costea.github.io/iraz.site/`.
+
+To serve the site at `iraz.ch`:
+1. In the GitHub repository, open **Settings → Pages**.
+2. Set the custom domain to `iraz.ch`.
+3. Configure the DNS records for `iraz.ch` at the domain's DNS provider.
+
+GitHub Pages hosts the static site, but DNS is handled by whoever manages the `iraz.ch` domain. The DNS provider needs to point `iraz.ch` to GitHub Pages.
 
 ## Maintenance Guide
 

@@ -2,9 +2,8 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/assets");
     eleventyConfig.addPassthroughCopy("src/img");
 
-    // This tells Eleventy: If we are on GitHub Actions, use the repo name as prefix.
-    // Otherwise (locally), use nothing.
-    const pathPrefix = process.env.GITHUB_ACTIONS ? "/iraz.site/" : "/";
+    // Local development and the custom domain both serve the site from the root.
+    const pathPrefix = "/";
 
     return {
         pathPrefix: pathPrefix,
